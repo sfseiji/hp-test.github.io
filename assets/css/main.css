@@ -659,6 +659,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
+
 		.image img {
 			border-radius: 4px;
 			display: block;
@@ -704,10 +705,45 @@ input, select, textarea {
 				width: 100%;
 			}
 
+
+		/* SHP */
+		#header .logo .image:before {
+			background-image: none;
+			opacity: 0;
+		}
+
+		/* SHP */
+		#header .logo .image.main{
+			margin-top: 4.1rem;
+			margin-left: -11.6rem;
+		}
+
+		/* SHP */
+		#header .logo .image.main img{
+			max-height: 8rem;
+			width: auto;
+			height:auto;
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
 				margin: 2rem 0;
+				text-align: center;
+			}
+
+			/* SHP */
+			#header .logo .image.main {
+				margin-top: 1rem;
+				margin-left: -8rem;
+			}
+
+
+			/* SHP */
+			#header .logo .image.main img{
+				max-width: 20rem;
+				width: auto;
+				height:auto;
 			}
 
 		}
@@ -1291,9 +1327,12 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
+			/* width: 5.5rem;
 			height: 5.5rem;
-			line-height: 5.5rem;
+			line-height: 5.5rem; */
+			width: 10rem;
+			height: 10rem;
+			line-height: 10rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
@@ -1460,8 +1499,9 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
-
+		/* SHP */
+		/* @media screen and (max-width: 480px) { */
+		@media screen and (max-width: 880px) {
 			#header {
 				padding: 1.5rem 0;
 			}
@@ -1544,7 +1584,9 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			/* SHP */
+			/* width: 40rem; */
+			width: 50rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
