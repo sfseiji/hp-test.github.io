@@ -1501,7 +1501,7 @@ input, select, textarea {
 
 		/* SHP */
 		/* @media screen and (max-width: 480px) { */
-		@media screen and (max-width: 880px) {
+		@media screen and (max-width: 920px) {
 			#header {
 				padding: 1.5rem 0;
 			}
