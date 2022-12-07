@@ -1,0 +1,20 @@
+# Other
+.cache
+.pytest_cache
+.tox
+.*.sw[op]
+*~
+.project
+.pydevproject
+.settings
+*.log
+
+
+# Mac OSX
+.DS_Store
+
+# Dropbox
+Icon?
+
+
+
