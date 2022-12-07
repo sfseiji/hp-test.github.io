@@ -1,0 +1,450 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>JWST UNCOVER: Data Release 1</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="custom-css/alt.css" />
+        <link rel="stylesheet" href="custom-css/mods.css" />
+        <link rel="icon" type="image/x-icon" href="images/UNCOVER_logo_black_magonly.svg">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+
+
+            <div class="navbar">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#overview">Overview</a></li>
+                    <li><a href="/#science">Science</a></li>
+                    <li><a href="/#releases">Data Releases</a></li>
+                    <hr>
+                    <li><a href="/#publications">Publications</a></li>
+                    <li><a href="/#team">Team</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+
+            </div>
+
+        <div id="main">
+
+            <div class="text">
+                <h1>The UNCOVER Survey: </h1>
+                <h2 id="DR1">Data Release 1</h2>
+
+                <div class="subnav">
+                    <ul class="subnav">
+                        <li><a href="#Mosaics">Mosaics</a></li>
+                        <!-- <li><a href="#LensingMaps">Lensing Maps</a></li> -->
+                        <!-- <li><a href="#PhotCat">Initial Photometry Catalogs</a></li> -->
+                    </ul>
+                </div>
+
+
+
+
+
+                <hr>
+                <!-- Mosaic release -->
+                <h3 class="minor" id="Mosaics">NIRCam primary / NIRISS parallel mosaic release</h3>
+                <h4 class="minor date">December 7, 2022</h4>
+
+                <p style="margin-bottom: 0.5rem">
+                    The reduced images from the UNCOVER pre-imaging observations
+                    (Nov 2,4,7, &amp; 15, 2022) are now available!
+                </p>
+
+                <p style="margin-bottom: 0.5rem">
+                    The short- (F115W, F150W, F200W)
+                    and long-wavelength bands (F277W, F356W, F410M, F444W)
+                    use pixel scales of 0."02 and 0."04, respecitvely. 
+                    All filters have the same WCS, which is defined so that the short-wavelength pixels 
+                    can be binned 2x2 to directly match the long-wavelength images. 
+                </p>
+                <p style="margin-bottom: 1rem">
+                    Additionally, mosaics of all existing <i>HST</i> data are provided, 
+                    produced with the same WCS and a 0."04 pixel scale. 
+                </p>
+
+                These mosaics include data from the following programs:
+                <ul style="margin-bottom: 1rem">
+                    <li><i>JWST</i>/NIRCAM: GO-2561 (UNCOVER), ERS-1324 (GLASS), DD-2767 </li>
+                    <li><i>JWST</i>/NIRISS: GO-2561 (UNCOVER), ERS-1324 (GLASS)</li>
+                    <li><i>HST</i>/ACS: #11689 (PI: Dupke), #13386 (PI: Rodney), 
+                                #13495 (PI: Lotz / HFF), #13389 (PI: Siana), #15117 (PI: Steinhardt),
+                                #17231 (PI: Treu) </li>
+                    <li><i>HST</i>/WFC3: #13495 (PI: Lotz), #15117 (PI: Steinhardt / BUFFALO)</li>
+                </ul>
+
+                
+                <p style="margin-bottom: 1.5rem">
+                    Please cite <a href="">Bezanson et al., 2022</a>
+                    if using these mosaics in any publication.
+                </p>
+
+
+                <p style="margin-bottom: 0;">
+                    RGB images of the NIRCAM and NIRISS mosaics are also available:
+                    <table class="plainlayouttable">
+                        <tr>
+                            <td>NIRCAM:</td>
+                            <td>
+                                <a href="https://drive.google.com/file/d/1nqhQ8yBemRY36_8PxvOARKZPE2goP56q/view?usp=share_link">1800 dpi [227 Mb]</a> |
+                                <a href="https://drive.google.com/file/d/1I6c4618v7Tdr-q7krXoxvXcsVCx2gUXK/view?usp=share_link">900 dpi [71 Mb]</a> |
+                                <a href="https://drive.google.com/file/d/1meN4W_j0_s52PhpOIj5S15X0L3u9BWfz/view?usp=share_link">600 dpi [30 Mb]</a> |
+                                <a href="https://drive.google.com/file/d/1efr_cXcHw6_DbkXH2PWLThLCZQdXvwNu/view?usp=share_link">300 dpi [8.3 Mb]</a><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>NIRISS:</td>
+                            <td>
+                                &nbsp; <a href="https://drive.google.com/file/d/1jeA2Fx7OwDoxRN4FMKzSpf4f_6XmHDZH/view?usp=share_link">1500 dpi [77 Mb]</a> |
+                                <a href="https://drive.google.com/file/d/1mkJNIEhJPtI3_E00e9QyiJl-2-ExbWST/view?usp=share_link">900 dpi [29 Mb]</a> |
+                                <a href="https://drive.google.com/file/d/1jBXaF1gkFOwHXmkc_YBIUtOydiKNoKB2/view?usp=share_link">600 dpi [13 Mb]</a> |
+                                <a href="https://drive.google.com/file/d/19xYrZxtbt96TMmkWPcA0kyvoCcrUNCLa/view?usp=share_link">300 dpi [3.5 Mb]</a>
+                            </td>
+                        </tr>
+                    </table>              
+                </p>
+
+
+                <p style="margin-bottom: 0;">
+                    <i>The following scripts can be used for batch downloads:
+                    <table class="plainlayouttable" style="font-style: italic;">
+                        <tr>
+                            <td>Linux/Unix:</td>
+                            <td>
+                                <a href="scripts/all_unix.sh">All files</a>,
+                                <a href="scripts/nircam_unix.sh">NIRCAM/Primary</a>,
+                                <a href="scripts/niriss_unix.sh">NIRISS/Parallel</a>,
+                                and the ancillary 
+                                <a href="scripts/hstacs_unix.sh">HST/ACS</a> and
+                                <a href="scripts/hstwfc3_unix.sh">HST/WFC3</a> mosaics
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>MacOS</td>
+                            <td>
+                                <a href="scripts/all_macos.sh">All files</a>,
+                                <a href="scripts/nircam_macos.sh">NIRCAM/Primary</a>,
+                                <a href="scripts/niriss_macos.sh">NIRISS/Parallel</a>,
+                                and the ancillary 
+                                <a href="scripts/hstacs_macos.sh">HST/ACS</a> and
+                                <a href="scripts/hstwfc3_macos.sh">HST/WFC3</a> mosaics
+                            </td>
+                        </tr>
+                    </table>
+                    </i>                    
+                </p>
+
+
+
+
+                <table>
+                    <tr>
+                        <th>NIRCAM Primary</th>
+                        <th>Files</th>
+                    </tr>
+                    <tr>
+                        <td>F090W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f090w-clear_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f090w-clear_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f090w-clear_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F115W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f115w-clear_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f115w-clear_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f115w-clear_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F150W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f150w-clear_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f150w-clear_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f150w-clear_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F200W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f200w-clear_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f200w-clear_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f200w-clear_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F277W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f277w-clear_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f277w-clear_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f277w-clear_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F356W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f356w-clear_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f356w-clear_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f356w-clear_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F410M</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f410m-clear_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f410m-clear_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f410m-clear_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F444W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f444w-clear_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f444w-clear_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f444w-clear_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>NIRISS Parallel</th>
+                        <th>Files</th>
+                    </tr>
+                    <tr>
+                        <td>F115W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f115wn-clear_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f115wn-clear_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f115wn-clear_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F150W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f150wn-clear_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f150wn-clear_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f150wn-clear_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F200W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f200wn-clear_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f200wn-clear_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f200wn-clear_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F356W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-clearp-f356w_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-clearp-f356w_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-clearp-f356w_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F444W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-clearp-f444w_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-clearp-f444w_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-clearp-f444w_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Ancillary HST: ACS/UV, Optical</th>
+                        <th>Files</th>
+                    </tr>
+                    <tr>
+                        <td>F225W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f225wu_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f225wu_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f225wu_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F275W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f275wu_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f275wu_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f275wu_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F336W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f336wu_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f336wu_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f336wu_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F435W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f435w_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f435w_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f435w_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F475W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f475w_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f475w_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f475w_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F606W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f606w_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f606w_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f606w_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F775W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f775w_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f775w_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f775w_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F814W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f814w_drc_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f814w_drc_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f814w_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Ancillary HST: WFC3/IR</th>
+                        <th>Files</th>
+                    </tr>
+                    <tr>
+                        <td>F105W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f105w_drz_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f105w_drz_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f105w_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F125W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f125w_drz_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f125w_drz_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f125w_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F140W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f140w_drz_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f140w_drz_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f140w_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>F160W</td>
+                        <td>
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f160w_drz_sci.fits.gz">Mosaic</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f160w_drz_wht.fits.gz">Weight map</a> &nbsp; &nbsp; 
+                            <a href="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-f160w_wcs.csv">Frame WCSs</a> 
+                        </td>
+                    </tr>
+                </table>
+            
+
+                <!-- <hr> -->
+                <!-- Lensing map release -->
+                <!-- <h3 class="minor" id="LensingMaps">Lensing maps release</h3> -->
+                <!-- <h4 class="date">December XX, 2022</h4> -->
+
+
+
+
+                <!-- <hr> -->
+                <!-- Initial photometry catalog release -->
+                <!-- <h3 class="minor" id="PhotCat">Initial photometry catalog release</h3> -->
+                <!-- <h4 class="minor date">December XX, 2022</h4> -->
+
+                <!-- <p style="margin-bottom: 0.5rem">
+                    The initial photometry v1.0 catalogs from the NIRCam primary obsevations
+                    of Abell 2744 are available for download!
+                </p>
+                <p style="margin-bottom: 0.5rem">
+                    These catalogs are based on the non-PSF matched imaging
+                    (with fluxes calculated with curve-of-growth aperture corrections).
+                    Detection was performed in XX and XX bands.
+                    For each filter, photometry is available within apertures
+                    of XX, XX, XX", as well as a total flux based on
+                    YYY aperture correction.
+                    <br><b> Have we included a cross-matching of LW / SW ID numbers?</b>
+                </p>
+                <ul style="margin-bottom: 0.8rem">
+                    <li>v1.0 photometry catalogs (LINK)</li>
+                    <li>v1.0 catalog readme (LINK)</li>
+                </ul>
+
+                <p>
+                    Please cite <a href="">PAPER REF/INITIAL PHOTOMETRY PAPER</a>
+                    if using these photometric catalogs in any publication.
+                </p> -->
+
+
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <!--    -->
+        <footer id="footer" class="text">
+            <p>&copy; JWST UNCOVER. Design based on elements from: <a href="https://html5up.net">HTML5 UP</a>.</p> 
+        </footer>
+
+
+        <!-- Got to top of page: chevron up -->
+        <div class="goToTop"><a href="#" aria-label="goToTop">
+            <div class="svg">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+            </svg>
+             </div>
+            </a>
+        </div>
+
+
+        </div>
+
+
+
+        <!-- BG -->
+        <div id="bg"></div>
+
+        
+        <script src="assets/js/jquery.min.js"></script>
+        <script>
+            $(window).scroll(function() {
+                        if ($(this).scrollTop() > 100) {
+                        $('.goToTop').show();
+                        } else {
+                        $('.goToTop').hide();
+                        }
+                    });
+        </script>
+        <script data-goatcounter="https://jwst-uncover.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+    </body>
+</html>
