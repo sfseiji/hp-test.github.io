@@ -749,6 +749,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     margin: 0 0 2rem 0;
+    width: 100%; 
 }
 
     table tbody tr {
@@ -775,8 +776,8 @@ table {
     }
 
     
-    table th:last-child{
-        width: 70%; 
+    table th:first-child{
+        width: 38%; 
     }
 
     table thead {
