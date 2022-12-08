@@ -131,6 +131,7 @@ body {
     color: var(--text);
     background-color: var(--background-body); 
     font-family: "Source Sans Pro", sans-serif;
+    /* font-family: sans-serif; */
     font-weight: 300; 
     font-size: 1rem;
     line-height: 1.65;
@@ -811,19 +812,66 @@ table {
 }
 
 
+.plainlayouttable tr.subset {
+    border: 0;
+}
+
 .plainlayouttable tr.subset td {
     font-size: 0.9rem; 
+    /* font-size: 0.85rem;  */
 }
 
 .plainlayouttable tr.subset  td.label {
     font-size: 1rem; 
+    padding-top: 0.1em; 
 }
 
 .plainlayouttable tr.subset td.sublabel {
+    display: flex;  
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -ms-max-content;
+    width: max-content;
     font-style: italic; 
-    padding: 0;
+    padding-left: 0.75rem; 
 }
 
+.plainlayouttable ul {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;  
+    flex-wrap: wrap; 
+    align-items: left;
+    justify-content: left;
+    list-style: none; 
+    padding: 0; 
+    margin-bottom: 0; 
+    margin-top: -0.5em; 
+}
+
+.plainlayouttable ul li {
+	/* border-left: solid 0.8px #ffffff; */
+    display: flex;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: -ms-max-content;
+    width: max-content;
+    /* padding: 0;  */
+    padding: 0; 
+    padding-right: 0.2em; 
+    line-height: normal; 
+    margin-top: 0.5em; 
+}
+
+.plainlayouttable ul li:after {
+    padding-left: 0.2em; 
+    content: "|"
+}
+
+.plainlayouttable ul li:last-child:after {
+    content: ""
+}
 
 
 #bg {
