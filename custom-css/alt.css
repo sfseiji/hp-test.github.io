@@ -810,6 +810,22 @@ table {
     padding-left: 0.75em; 
 }
 
+
+.plainlayouttable tr.subset td {
+    font-size: 0.9rem; 
+}
+
+.plainlayouttable tr.subset  td.label {
+    font-size: 1rem; 
+}
+
+.plainlayouttable tr.subset td.sublabel {
+    font-style: italic; 
+    padding: 0;
+}
+
+
+
 #bg {
     -moz-transform: scale(1.0);
     -webkit-transform: scale(1.0);
