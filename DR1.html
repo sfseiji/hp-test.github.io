@@ -41,7 +41,7 @@
                 <div class="subnav">
                     <ul class="subnav">
                         <li><a href="#Mosaics">Mosaics</a></li>
-                        <!-- <li><a href="#LensingMaps">Lensing Maps</a></li> -->
+                        <li><a href="#LensingMaps">Lensing Maps</a></li>
                         <!-- <li><a href="#PhotCat">Initial Photometry Catalogs</a></li> -->
                     </ul>
                 </div>
@@ -121,10 +121,21 @@
                             <td class="label">NIRISS:</td>
                             <td></td>
                             <td>
-                                <a href="https://drive.google.com/file/d/19xYrZxtbt96TMmkWPcA0kyvoCcrUNCLa/view?usp=share_link">300 dpi [3.5 Mb]</a> |
-                                <a href="https://drive.google.com/file/d/1jBXaF1gkFOwHXmkc_YBIUtOydiKNoKB2/view?usp=share_link">600 dpi [13 Mb]</a> |
-                                <a href="https://drive.google.com/file/d/1mkJNIEhJPtI3_E00e9QyiJl-2-ExbWST/view?usp=share_link">900 dpi [29 Mb]</a> |
-                                <a href="https://drive.google.com/file/d/1jeA2Fx7OwDoxRN4FMKzSpf4f_6XmHDZH/view?usp=share_link">1500 dpi [77 Mb]</a> 
+                                <ul>
+                                    <li><a href="https://drive.google.com/file/d/19xYrZxtbt96TMmkWPcA0kyvoCcrUNCLa/view?usp=share_link">300 dpi [3.5 Mb]</a> </li>
+                                    <li><a href="https://drive.google.com/file/d/1jBXaF1gkFOwHXmkc_YBIUtOydiKNoKB2/view?usp=share_link">600 dpi [13 Mb]</a> </li>
+                                    <li><a href="https://drive.google.com/file/d/1mkJNIEhJPtI3_E00e9QyiJl-2-ExbWST/view?usp=share_link">900 dpi [29 Mb]</a> </li>
+                                    <li><a href="https://drive.google.com/file/d/1jeA2Fx7OwDoxRN4FMKzSpf4f_6XmHDZH/view?usp=share_link">1500 dpi [77 Mb]</a> </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="subset">
+                            <td class="minor">Plotting scripts:</td>
+                            <td></td>
+                            <td class="minor">
+                                <ul>
+                                    <li><a href="https://github.com/sedonaprice/UNCOVER_mosaics_scripts">Github repo</a></li>
+                                </ul>
                             </td>
                         </tr>
                     </table>              
@@ -133,10 +144,10 @@
 
                 <p style="margin-bottom: 0;">
                     <i>The following scripts can be used for batch downloads:
-                    <table class="plainlayouttable" style="font-style: italic; font-size: 0.9rem; ">
+                    <table class="plainlayouttable">
                         <tr>
-                            <td>Linux/Unix:</td>
-                            <td>
+                            <td class="minor">Linux/Unix:</td>
+                            <td class="minor">
                                 <a href="scripts/all_unix.sh">All files</a>,
                                 <a href="scripts/nircam_unix.sh">NIRCAM/Primary</a>,
                                 <a href="scripts/niriss_unix.sh">NIRISS/Parallel</a>,
@@ -147,8 +158,8 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>MacOS:</td>
-                            <td>
+                            <td class="minor">MacOS:</td>
+                            <td class="minor">
                                 <a href="scripts/all_macos.sh">All files</a>,
                                 <a href="scripts/nircam_macos.sh">NIRCAM/Primary</a>,
                                 <a href="scripts/niriss_macos.sh">NIRISS/Parallel</a>,
@@ -385,13 +396,61 @@
                 </table>
             
 
-                <!-- <hr> -->
+                <hr>
                 <!-- Lensing map release -->
-                <!-- <h3 class="minor" id="LensingMaps">Lensing maps release</h3> -->
-                <!-- <h4 class="date">December XX, 2022</h4> -->
+                <h3 class="minor" id="LensingMaps">UNCOVER Abell 2744 lens model release</h3>
+                <h4 class="date">December 14, 2022</h4>
+
+                <h5>Authors: Lukas J. Furtak and Adi Zitrin</h5>
+
+                <p style="margin-bottom: 0.5rem">
+                    The UNCOVER strong lensing (SL) model 
+                    <!-- (produced by Lukas J. Furtak and Adi Zitrin)  -->
+                    is a parametric SL model constructed 
+                    with the UNCOVER JWST data using a new (grid-free) analytic method by A. Zitrin.
+                </p>
+
+                <p style="margin-bottom: 0.5rem">
+                    In this model releases, we supply WCS-registered FITS maps 
+                    of the deflection field (in pixels), convergence, shear, 
+                    and the lensing potential normalized to Dds/Ds=1. 
+                    We also supply magnification maps for various source redshifts: 
+                    1, 2, 4, 6, 8, 10, 15 and 20. The lensing maps have a FoV of 7.6' x 7.6', 
+                    which covers the entire central UNCOVER field. 
+                    We provide maps for the best-fit model in two resolutions, 
+                    a high-resolution version in 0.04"/pix (JWST NIRCam resolution) 
+                    and a low-resolution version with 0.1"/pix.
+                </p>
 
 
+                <p style="margin-bottom: 0.5rem">
+                    Please cite 
+                    <a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204381F/abstract">Furtak et al. 2022</a> 
+                    when using any of the lensing maps provided here.
+                </p>
 
+                <p style="margin-bottom: 1.0rem">
+                    For any questions, please contact us at: <i>furtak [at] post.bgu.ac.il</i>
+                </p>
+
+                <table>
+                    <tr>
+                        <th>UNCOVER lensing maps</th>
+                        <th>Files</th>
+                    </tr>
+                    <tr>
+                        <td>All versions</td>
+                        <td>
+                            <a href="https://www.dropbox.com/sh/ig16ag086imcfaa/AACZcUequvKL6Phq5YxG6kfPa?dl=0">Top directory</a> &nbsp; &nbsp; 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>v1.0</td>
+                        <td>
+                            <a href="https://www.dropbox.com/sh/ig16ag086imcfaa/AACoIS0McGSsy9ffPOgMLkMKa/UNCOVER_maps_release_v1.0%20Lukas%20Furtak?dl=0&subfolder_nav_tracking=1">All files</a> &nbsp; &nbsp; 
+                        </td>
+                    </tr>
+                </table>
 
                 <!-- <hr> -->
                 <!-- Initial photometry catalog release -->
