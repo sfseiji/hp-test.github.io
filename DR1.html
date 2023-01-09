@@ -42,7 +42,7 @@
                     <ul class="subnav">
                         <li><a href="#Mosaics">Mosaics</a></li>
                         <li><a href="#LensingMaps">Lensing Maps</a></li>
-                        <!-- <li><a href="#PhotCat">Initial Photometry Catalogs</a></li> -->
+                        <li><a href="#PhotometricCatalogs">Photometric Catalogs</a></li>
                     </ul>
                 </div>
 
@@ -63,13 +63,14 @@
                 <p style="margin-bottom: 0.5rem">
                     The short- (F115W, F150W, F200W)
                     and long-wavelength bands (F277W, F356W, F410M, F444W)
-                    use pixel scales of 0."02 and 0."04, respecitvely. 
-                    All filters have the same WCS, which is defined so that the short-wavelength pixels 
+                    use pixel scales of 0.02" and 0.04", respecitvely. 
+                    All filters have the same WCS, which is defined so that 
+                    the short-wavelength pixels 
                     can be binned 2x2 to directly match the long-wavelength images. 
                 </p>
                 <p style="margin-bottom: 1rem">
                     Additionally, mosaics of all existing <i>HST</i> data are provided, 
-                    produced with the same WCS and a 0."04 pixel scale. 
+                    produced with the same WCS and a 0.04" pixel scale. 
                 </p>
 
                 These mosaics include data from the following programs:
@@ -84,7 +85,7 @@
 
                 
                 <p style="margin-bottom: 1.5rem">
-                    Please cite <a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204026B/abstract">Bezanson et al., 2022</a>
+                    Please cite <a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204026B/abstract">Bezanson et al. 2022</a>
                     if using these mosaics in any publication.
                 </p>
 
@@ -452,34 +453,91 @@
                     </tr>
                 </table>
 
-                <!-- <hr> -->
-                <!-- Initial photometry catalog release -->
-                <!-- <h3 class="minor" id="PhotCat">Initial photometry catalog release</h3> -->
-                <!-- <h4 class="minor date">December XX, 2022</h4> -->
+                <hr>
+                <!-- Initial photometric catalogs release -->
+                <h3 class="minor" id="PhotometricCatalogs">Initial photometric catalog release: NIRCam</h3>
+                <h4 class="minor date">January 9, 2023</h4>
 
-                <!-- <p style="margin-bottom: 0.5rem">
-                    The initial photometry v1.0 catalogs from the NIRCam primary obsevations
-                    of Abell 2744 are available for download!
+                <h5>Authors: John R. Weaver, Sam Cutler, Richard Pan, Kate Whitaker, and Lukas Furtak</h5>
+                
+                <p style="margin-bottom: 0.8rem">
+                    <!-- This release includes  -->
+                    The initial DR1 photometric catalogs from the UNCOVER 
+                    Abell 2744 NIRCam primary observations are now available!
                 </p>
-                <p style="margin-bottom: 0.5rem">
-                    These catalogs are based on the non-PSF matched imaging
-                    (with fluxes calculated with curve-of-growth aperture corrections).
-                    Detection was performed in XX and XX bands.
-                    For each filter, photometry is available within apertures
-                    of XX, XX, XX", as well as a total flux based on
-                    YYY aperture correction.
-                    <br><b> Have we included a cross-matching of LW / SW ID numbers?</b>
+
+                <p style="margin-bottom: 0.2rem">
+                    Two catalogs are available, with different color apertures: 
                 </p>
-                <ul style="margin-bottom: 0.8rem">
-                    <li>v1.0 photometry catalogs (LINK)</li>
-                    <li>v1.0 catalog readme (LINK)</li>
+                <ul style="margin-bottom: 0.5rem">
+                    <li style="margin-left: 1rem"><b>0.32" diameter (D032)</b>, intended for compact, faint, high-z, or crowded sources; and</li>
+                    <li style="margin-left: 1rem"><b>0.7" <i style="padding-left:0.1rem;">&nbsp;</i> diameter (D070)</b>, intended for large, bright, low-z, or isolated sources </li>
                 </ul>
 
-                <p>
-                    Please cite <a href="">PAPER REF/INITIAL PHOTOMETRY PAPER</a>
-                    if using these photometric catalogs in any publication.
-                </p> -->
+                <p style="margin-bottom: 1rem">
+                    Both catalogs are based on F444W PSF-matched imaging, 
+                    where the bright cluster galaxies and ICL have been modeled and subtracted. 
+                    Detection was performed on a noise-equalized long-wavelength image (F277W+F356W+F444W). 
+                    <!--  -->
+                    Initial photometric redshifts derived using EAZY, 
+                    and lensing magnifications for each object based on the lensing maps of 
+                    <a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204381F/abstract">Furtak et al. 2022</a> are also included in the catalogs. 
+                    <!--  -->
+                    For full details, please see the 
+                    <a href="https://drive.google.com/file/d/1Oj_juobTyG9hz5FUJx7bU5G8KOxy37pI/view?usp=share_link">README</a> and the 
+                    <a href="">catalog paper</a>.
+                </p>
 
+                <!-- <p style="margin-bottom: 1.5rem"> -->
+                <p style="margin-bottom: 1rem">
+                    Please cite <a href="">Weaver et al. 2023</a>
+                    if using these photometric catalogs in any publication.
+                </p>
+
+
+                <p style="margin-bottom: 0;">
+                    Higher-resolution versions of Figure 4 of <a href="">Weaver et al. 2023</a> are also available:
+                </p>
+
+                <p style="font-size: 0.9rem; padding-left: 1rem; margin-bottom:1.5rem">
+                    <a href="https://drive.google.com/file/d/1blMuKB751mG-91s6GLYeB9cvmLTMdy9K/view?usp=share_link">PDF [300 dpi / 15 Mb]</a> | 
+                    <a href="https://drive.google.com/file/d/16_MgUVX1MsD20WnecWYhPTSzdg816wBQ/view?usp=share_link">PNG [300 dpi / 10 Mb]</a>   
+                </p>
+
+
+                <p style="margin-bottom: 1.5rem">
+                    <i>An updated catalog containing the lensing magnification will be 
+                        available after Jan 15, 2023.<br>
+                        For Cycle 2 proposal preparations, 
+                        magnifications can be calculated before this date 
+                        for a small number of objects upon request 
+                        (please contact: furtak [at] post.bgu.ac.il).
+                    </i>
+                </p>
+
+                <table>
+                    <tr>
+                        <th style="width:20%">Flux aperture</th>
+                        <th>Intended use</th>
+                        <th>Files</th>
+                    </tr>
+                    <tr>
+                        <td>0.32"</td>
+                        <td>Compact, faint, high-z, or crowded sources</td>
+                        <td>         
+                            <a href="https://drive.google.com/file/d/1kx4tYaHXJoTUR8Y_-3ivF5jLNUONe9rc/view?usp=share_link">Catalog</a> &nbsp; &nbsp; 
+                            <a href="https://drive.google.com/file/d/1Oj_juobTyG9hz5FUJx7bU5G8KOxy37pI/view?usp=share_link">README</a> &nbsp; &nbsp; 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>0.7"</td>
+                        <td>Large, bright, low-z, or isolated sources</td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1woy9f7MKT_b4sQ8fVTxxg8zn5ewinhlB/view?usp=share_link">Catalog</a> &nbsp; &nbsp; 
+                            <a href="https://drive.google.com/file/d/1Oj_juobTyG9hz5FUJx7bU5G8KOxy37pI/view?usp=share_link">README</a> &nbsp; &nbsp; 
+                        </td>
+                    </tr>
+                </table>
 
             </div>
 

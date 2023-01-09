@@ -122,3 +122,17 @@ table th {
 table tbody tr:nth-child(2n + 1) {
     background-color: inherit; 
 }
+
+
+
+h4.bigger{
+    font-size: 0.9rem;
+}
+span.smaller{
+    font-size: 0.8rem; 
+}
+
+div.smaller{
+    font-size: 0.8rem; 
+}
+
