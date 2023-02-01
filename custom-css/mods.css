@@ -136,3 +136,11 @@ div.smaller{
     font-size: 0.8rem; 
 }
 
+
+.publications sub {
+    vertical-align: text-bottom; 
+    position: relative;   
+    top: 0.25rem;  
+}
+
+
