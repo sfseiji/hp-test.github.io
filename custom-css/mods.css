@@ -144,3 +144,30 @@ div.smaller{
 }
 
 
+.flex-horizontal {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    position: relative;
+    min-width: 10rem;
+    max-width: 100%;
+}
+
+.flex-horizontal h2, .flex-horizontal h4 {
+    margin-bottom: 0; 
+} 
+
+.flex-horizontal h4 {
+    vertical-align: baseline;
+    font-weight: 500; 
+    padding-top: 0.3rem; 
+}
