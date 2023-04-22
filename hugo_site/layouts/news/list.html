@@ -25,37 +25,18 @@
 
                         <div class="image alt main narrow-display">
                             <img src="images/UNCOVER_logo_white.png" alt="" />
-                            <!-- <img src="images/UNCOVER_logo_black_magonly.svg" alt="" /> -->
-                        <!-- </span> -->
                         </div>
                         
-                        <!-- <div class="logo" style="border: none;">
-                            <span class="image main">
-                                <img src="images/UNCOVER_logo_white.png" alt="" />
-                            </span>
-                        </div> -->
                         <div class="content">
-                            <!-- <div class="flex-container" style="align-items: center; "> -->
-                                <!-- class="image main" -->
-                                <!-- <span class="image alt main"> -->
-                                <div class="image alt main wide-display">
-                                    <img src="images/UNCOVER_logo_white.png" alt="" />
-                                    <!-- <img src="images/UNCOVER_logo_black_magonly.svg" alt="" /> -->
-                                <!-- </span> -->
-                                </div>
-                            <!-- </div> -->
+                            <div class="image alt main wide-display">
+                                <img src="images/UNCOVER_logo_white.png" alt="" />  
+                            </div>
 
-                                                
-                            <!-- #IT'S THE LANDING PAGE -->
-                            <!-- <h1>UNCOVER news</h1> -->
                             <div class="inner alt">
-
-                                <!-- {{ .Content }} -->
-
                                 {{- partial  "news_carousel.html" . -}}
-
                             </div>
                         </div>
+
                         <nav class="narrow-display">
                             <ul>
                                 <li><a href="/">Home</a></li>
@@ -74,23 +55,38 @@
 
             <!-- Main content -->
             <div id="main">
-                <!-- {{- block "main" . }}{{- end }} -->
-                <!-- {{ .Content }} -->
-
                 {{ range (where .Site.RegularPages "Section" "news") }}
-                    <!-- News -->
 
+                    <!-- News -->
                     {{ $anchorized := anchorize .Page.Title }}
                     <article id="{{ $anchorized }}" class="news">
-                        <!-- <div id="news-include"></div> -->
-                        {{ .Content }}
+                        
+                        <h1>{{ .Title }}</h1>
+
+                        <div class="image-side">
+                            {{ $img_found := false }}
+                            {{ with .Resources.ByType "image" }}
+                                {{ range . }}
+                                {{ with .Fill "1200x600" }}
+                                <img src="{{ .RelPermalink }}"  width="{{ .Width }}"  height="{{ .Height }}" class="image-news"  alt="">
+                                {{ $img_found = true }}
+                                {{ end }}
+                                {{ end }}
+                            {{ end }}
+
+                            {{ if (eq $img_found false) }}
+                                {{ if isset .Params "imageurl" }}
+                                <img src="{{ .Params.imageurl }}" class="image-news"  alt="">
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                        <div class="news-text">
+                            {{ .Content }}
+                        </div>
                     </article>
                 {{ end }}
-                
-
                     
             </div>
-
 
                 <!-- Footer -->
                 {{- partial "footer_alt.html" . -}}

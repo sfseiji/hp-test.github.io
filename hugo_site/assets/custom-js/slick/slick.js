@@ -582,52 +582,6 @@
             }
             //////////////////////////////////////////////////////
 
-            // //////////////////////////////////////////////////////
-
-            // console.log("_.options.slidesPerRow", _.options.slidesPerRow)
-            // console.log("_.options.rows", _.options.rows)
-            // console.log("slidesPerSection", slidesPerSection)
-
-            // for(a = 0; a < numOfSlides; a++){
-            //     console.log("a", a);
-            //     var slide = document.createElement('div');
-            //     slide.className = "row-slide-loop"
-            //     for(b = 0; b < _.options.rows; b++) {
-            //         console.log("b", b);
-            //         var row = document.createElement('div');
-            //         row.className = "row-slick-loop"
-            //         for(c = 0; c < _.options.slidesPerRow; c++) {
-            //             console.log("c", c);
-            //             var target = (a * slidesPerSection + ((b * _.options.slidesPerRow) + c));
-            //             console.log("target", target);
-            //             if (originalSlides.get(target)) {
-            //                 row.appendChild(originalSlides.get(target));
-            //             }
-            //         }
-            //         slide.appendChild(row);
-            //     }
-            //     newSlides.appendChild(slide);
-            // }
-            // //////////////////////////////////////////////////////
-
-            // //////////////////////////////////////////////////////
-            // ////// SWAP ROW / COL ORDER:
-            // for(a = 0; a < numOfSlides; a++){
-            //     var slide = document.createElement('div');
-            //     for(c = 0; c < _.options.slidesPerRow; c++) {
-            //         for(b = 0; b < _.options.rows; b++) {
-            //             var row = document.createElement('div');
-            //             var target = (a * slidesPerSection + ((b * _.options.slidesPerRow) + c));
-            //             if (originalSlides.get(target)) {
-            //                 row.appendChild(originalSlides.get(target));
-            //             }
-            //         }
-            //         slide.appendChild(row);
-            //     }
-            //     newSlides.appendChild(slide);
-            // }
-            // //////////////////////////////////////////////////////
-
             _.$slider.empty().append(newSlides);
             _.$slider.children().children().children()
                 .css({
@@ -635,13 +589,6 @@
                     'display': 'inline-block', 
                 });
 
-            // _.$slider.children().children().children()
-            //     .css({
-            //         // 'width':(100 / _.options.slidesPerRow) + '%',
-            //         // 'display': 'flex'
-            //         //'inline-block'
-            //         // 'flex': '1', 
-            //     });
 
         }
 
