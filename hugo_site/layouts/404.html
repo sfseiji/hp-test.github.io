@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+      <main>
+        <div class="container-fluid p-0">
+
+            <div class="p-5 ms-2 mt-2 text-left main-content">
+              <h2>Page not found</h2>
+              <h5 class="mt-4" style="font-weight:400; font-size: 1rem; ">
+                Return to the
+                <a style="text-decoration-style: dotted" href="{{ .Site.Home.Permalink }}">home page?</a>
+              </h5>
+            </div>
+
+          <!-- Footer -->
+          {{- partial "footer.html" . -}}
+
+        </div>
+      </main>
+
+      {{- partial "scripts_bootstrap.html" . -}}
+      {{- partial "scripts_simple.html" . -}}
+      {{- partial "scripts_counter.html" . -}}
+
+    </body>
+</html>

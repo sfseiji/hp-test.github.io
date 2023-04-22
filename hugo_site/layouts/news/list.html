@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head_slick.html" . -}}
+
+      <body class="is-preload">
+
+        <!-- Wrapper -->
+            <div id="wrapper" class="alt-news">
+
+                <!-- Header -->
+                    <header id="header" class="alt-news">
+
+                        <nav class="wide-display">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/#overview">Overview</a></li>
+                                <li><a href="/#science">Science</a></li>
+                                <li><a style="width: 10rem;" href="#releases">Data Releases</a></li>
+                                <li><a href="/#publications">Publications</a></li>
+                                <li><a href="/#team">Team</a></li>
+                                <li><a href="/#contact">Contact</a></li>
+                                <li class="highlight"><a href="#">News</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="image alt main narrow-display">
+                            <img src="images/UNCOVER_logo_white.png" alt="" />
+                            <!-- <img src="images/UNCOVER_logo_black_magonly.svg" alt="" /> -->
+                        <!-- </span> -->
+                        </div>
+                        
+                        <!-- <div class="logo" style="border: none;">
+                            <span class="image main">
+                                <img src="images/UNCOVER_logo_white.png" alt="" />
+                            </span>
+                        </div> -->
+                        <div class="content">
+                            <!-- <div class="flex-container" style="align-items: center; "> -->
+                                <!-- class="image main" -->
+                                <!-- <span class="image alt main"> -->
+                                <div class="image alt main wide-display">
+                                    <img src="images/UNCOVER_logo_white.png" alt="" />
+                                    <!-- <img src="images/UNCOVER_logo_black_magonly.svg" alt="" /> -->
+                                <!-- </span> -->
+                                </div>
+                            <!-- </div> -->
+
+                                                
+                            <!-- #IT'S THE LANDING PAGE -->
+                            <!-- <h1>UNCOVER news</h1> -->
+                            <div class="inner alt">
+
+                                <!-- {{ .Content }} -->
+
+                                {{- partial  "news_carousel.html" . -}}
+
+                            </div>
+                        </div>
+                        <nav class="narrow-display">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/#overview">Overview</a></li>
+                                <li><a href="/#science">Science</a></li>
+                                <li><a style="width: 10rem;" href="#releases">Data Releases</a></li>
+                                <li><a href="/#publications">Publications</a></li>
+                                <li><a href="/#team">Team</a></li>
+                                <li><a href="/#contact">Contact</a></li>
+                                <li class="highlight"><a href="#">News</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+
+
+
+            <!-- Main content -->
+            <div id="main">
+                <!-- {{- block "main" . }}{{- end }} -->
+                <!-- {{ .Content }} -->
+
+                {{ range (where .Site.RegularPages "Section" "news") }}
+                    <!-- News -->
+
+                    {{ $anchorized := anchorize .Page.Title }}
+                    <article id="{{ $anchorized }}" class="news">
+                        <!-- <div id="news-include"></div> -->
+                        {{ .Content }}
+                    </article>
+                {{ end }}
+                
+
+                    
+            </div>
+
+
+                <!-- Footer -->
+                {{- partial "footer_alt.html" . -}}
+
+
+            </div>
+
+        <!-- BG -->
+            <div id="bg"></div>
+
+        <!-- Scripts -->
+      {{- partial "scripts_bootstrap.html" . -}}
+      {{- partial "scripts_html5up.html" . -}}
+      {{- partial "scripts_slick.html" . -}}
+      {{- partial "scripts_counter.html" . -}}
+
+
+    </body>
+</html>
+
+
+
+

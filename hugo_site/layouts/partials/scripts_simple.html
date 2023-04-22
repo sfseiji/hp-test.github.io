@@ -1,0 +1,13 @@
+<!-- Scripts -->
+<!-- <script src="/assets/js/jquery.min.js"></script> -->
+{{ $js := resources.Get "js/jquery.min.js" }}
+<script src="{{ $js.RelPermalink }}"></script>
+<script>
+    $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                $('.goToTop').show();
+                } else {
+                $('.goToTop').hide();
+                }
+            });
+</script>

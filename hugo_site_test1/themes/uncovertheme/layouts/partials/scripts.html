@@ -1,0 +1,21 @@
+
+
+
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+    $(function(){
+    $('[id$="-include"]').each(function (e){
+        $(this).load($(this).attr("id").replace("-include", "") +  ".partial.html");
+    });
+    });
+</script>
+
+<!-- <script data-goatcounter="https://jwst-uncover.goatcounter.com/count"
+async src="//gc.zgo.at/count.js"></script> -->
