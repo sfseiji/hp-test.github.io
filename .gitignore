@@ -17,4 +17,5 @@
 Icon?
 
 
-
+# Hugo
+.hugo_build.lock 
