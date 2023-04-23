@@ -458,6 +458,14 @@ input[type="button"], button, .button {
     list-style-type: none;
 }
 
+@media screen and (max-width: 520px) {
+    .two-column ul {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
 table th {
     background-color: rgba(145, 145, 145, 0.2); 
 }
