@@ -73,11 +73,11 @@ a {
     display: inline-block;
     position: relative;
     width: 30%; 
+    min-width: 20rem; 
     margin-left: auto;
     margin-right: auto; 
     margin-bottom: 0rem; 
     margin-top: 1.5rem; 
-    /* margin-top: 1rem;  */
     background-image: none; 
     background-color: transparent;
 }
@@ -100,8 +100,6 @@ a {
 
 
 #header nav ul li a {
-    /* padding: 0 1.25rem 0 1.45rem; */
-    /* padding: 0 0.75rem 0 0.9rem;  */
     min-width: 5rem;
     padding: 0 1rem 0 1.2rem;
     line-height: 2.76rem; 
@@ -142,7 +140,6 @@ input[type="button"], button, .button {
 .slick-prev,
 .slick-next
 {
-    /* width: 20px; */
     width: 2rem; 
     height: 2rem;
     padding: 0;
@@ -161,25 +158,6 @@ input[type="button"], button, .button {
 
 
 
-/* .carousel-indicators {
-    bottom: -50px;
-}  */
-
-.carousel-inner{
-    padding: 1rem;
-    padding-left: 2.5rem; 
-    padding-right: 2.5rem; 
-}
-
-.carousel-control-prev, .carousel-control-next{
-    /* background-color: #e1e1e1; */
-    width: 6vh;
-    height: 6vh;
-    /* border-radius: 50%; */
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 
 @media screen and (max-width: 736px) {
 
@@ -196,12 +174,6 @@ input[type="button"], button, .button {
         width: auto;
         height:auto;
     }
-/* 
-
-#header .content .inner.alt {
-    padding-left: 0; 
-    padding-right: 0; 
-} */
 
 }
 
@@ -246,16 +218,11 @@ input[type="button"], button, .button {
 }
 
 .content .inner .slick-track {
-    /* height: 50vh;  */
     flex: 1; 
-    /* width: 100%!important;  */
-    /* padding-left: 2rem;  */
-    /* padding-right: 2rem; */
 }
 
 .content .inner .slick-slide > div {
     display: flex; 
-    /* height: 50%;  */
     margin-top: 1rem;
     margin-bottom: 1rem; 
 }
@@ -266,8 +233,6 @@ input[type="button"], button, .button {
     flex: 1; 
     padding-left: auto; 
     padding-right: auto; 
-
-
 
     display: -moz-flex;
     display: -webkit-flex;
@@ -294,11 +259,8 @@ input[type="button"], button, .button {
 
 
 .content .inner img {
-    /* max-height: 9rem;  */
     max-height: 9rem; 
     max-width: 100%; 
-    /* width: auto;  */
-    /* display: block; */
     object-fit: cover;
 } 
 
@@ -314,13 +276,10 @@ input[type="button"], button, .button {
 
 #header.alt-news  .content:before {
     top: calc(-2.5rem - 1px);
-    /* left: calc(50% - 1px); */
-    /* width: 3px; */
     height: calc(2.5rem + 1px);
 }
 
 /* SHP */
-/* @media screen and (max-width: 480px) { */
 @media screen and (max-width: 920px) {
         #header {
             padding: 1.5rem 0;
@@ -349,8 +308,6 @@ input[type="button"], button, .button {
                     }
 
                     #header nav ul li a {
-                        /* height: 3rem; */
-                        /* line-height: 3rem;   */
                         height: 2.75rem; 
                         line-height: 2.76rem; 
                         min-width: 0;
@@ -381,7 +338,6 @@ input[type="button"], button, .button {
 
         #header .content .image {
             margin-top: 0; 
-            /* margin-top: 2rem;  */
         }
         #header .content .image.wide-display {
             display: none; 
@@ -404,8 +360,6 @@ input[type="button"], button, .button {
 
         #header.alt-news .content {
             margin-top: 1.3rem; 
-            /* display: flex;  */
-
 
             display: -moz-flex;
             display: -webkit-flex;
@@ -431,22 +385,16 @@ input[type="button"], button, .button {
             max-width: 90%; 
         }
 
-        /* .content .inner .slick-list { */
-            /* height: 50vh;  */
-            /* flex: 1;  */
-            /* padding-left: 2rem;  */
-            /* padding-right: 2rem; */
-            /* margin-left: 0;  */
-            /* margin-right: 0;  */
-        /* } */
-
         #header .image.narrow-display {
-            width: 40%; 
-            left: calc(-0.75%);
+            left: calc(-0.4rem); 
+        }
+
+        .image.alt.main {
+            width: 20rem; 
         }
 
           #header.alt-news  > :nth-child(2) {
-			margin-top: 0;
+			margin-top: 0; 
 		  }
 
 			#header.alt-news  > :nth-child(2):before {
@@ -456,20 +404,15 @@ input[type="button"], button, .button {
 
 
 			#header.alt-news  .content:before {
-				/* top: calc(-2.6rem - 1px);
-				height: calc(2.6rem + 1px); */
-				top: calc(-7% - 1px);
-				height: calc(7% + 1px);      
+                top: calc(-2.5rem - 2px);
+                height: calc(2.5rem + 2px);
 			}
 
             #header.alt-news nav.narrow-display {
-                /* margin-top: 2.5=rem;  */
                 margin-top: 2.5rem; 
             }
 
 			#header.alt-news  nav.narrow-display:before {
-				/* top: calc(-2.6rem - 1px);
-				height: calc(2.6rem + 1px); */
 				top: calc(-2.5rem - 1px);
 				height: calc(2.5rem + 1px);    
 			}
@@ -479,14 +422,11 @@ input[type="button"], button, .button {
 
 
 
-
 .image.nooverlay:before {
         opacity: 0;
 }
 
 #main article {
-    /* SHP */
-    /* width: 40rem; */
     width: 50rem;
 }
 
@@ -554,7 +494,6 @@ div.smaller{
 }
 
 .publications li ul {
-    /* padding-bottom: 0.5em; */
     list-style-type: none;
     padding-left: 0; 
   }
@@ -598,4 +537,28 @@ div.smaller{
 
 .alt-news #footer {
     margin-top: 1.5rem; 
+}
+
+
+img.image-news {
+    /* max-width: 100%;  */
+    /* height: auto;  */
+    max-height: 20rem; 
+    width: auto; 
+}
+
+img.image-interview {
+    max-width: 25%; 
+    height: auto; 
+
+    max-width: 40%; 
+    height: auto; 
+    float: right; 
+    padding-left: 1rem; 
+    padding-bottom: 1rem; 
+}
+
+
+.alt-news .image-side p {
+    text-align: justify;
 }

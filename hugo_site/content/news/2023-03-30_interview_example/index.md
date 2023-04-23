@@ -1,8 +1,9 @@
 +++
-title = "NIRCAM obs"
-draft = false
+title = "Interview example"
+draft = true
 type = "news"
-date = "2022-11-14"
+category = "interview"
+date = "2023-03-30"
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis arcu elementum, scelerisque est et, vestibulum nulla. Donec dui sapien, tristique in tortor sit amet, condimentum fermentum lorem. Donec tempor dolor quis feugiat imperdiet. Nunc porttitor gravida felis a posuere. Sed maximus odio tristique, consequat lectus a, rhoncus ligula. Proin eu mattis eros. Praesent ligula nunc, sollicitudin eu laoreet ut, consequat eget metus. Proin molestie efficitur mauris at ornare. Etiam et congue justo. Fusce quis enim quis elit luctus bibendum a vitae urna. Mauris ultrices vestibulum enim, vitae iaculis felis imperdiet non. Suspendisse molestie nisi tellus, id viverra enim maximus at.
