@@ -1,5 +1,5 @@
 +++
-title = "Interview example"
+title = "Spotlight: Firstname Lastname"
 draft = true
 type = "news"
 category = "interview"
