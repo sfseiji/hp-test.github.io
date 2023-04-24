@@ -206,6 +206,7 @@ input[type="button"], button, .button {
 
 .content .news-carousel {
     display: flex;
+    /* padding-bottom: 2rem;  */
 }
 
 .content .inner .slick-list {
@@ -216,6 +217,13 @@ input[type="button"], button, .button {
     margin-left: 2rem; 
     margin-right: 2rem; 
 }
+
+#header .content .inner.alt {
+    max-height: none; 
+}
+/* body.is-preload #header .content .inner.alt {
+    max-height: none; 
+} */
 
 .content .inner .slick-track {
     flex: 1; 
@@ -381,8 +389,9 @@ input[type="button"], button, .button {
         }
 
         #header.alt-news .content .inner {
-            padding: 2.5rem 2rem;
-            max-width: 90%; 
+            /* padding: 2.5rem 2rem; */
+            padding: 0.5rem 2rem;
+            /* max-width: 90%;  */
         }
 
         #header .image.narrow-display {
