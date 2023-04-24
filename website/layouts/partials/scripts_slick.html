@@ -1,0 +1,55 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+{{ $js := resources.Get "custom-js/slick/slick.js" | minify }}
+<script src="{{ $js.RelPermalink }}"></script>
+
+<script>
+    $('.news-carousel').slick({
+        infinite: false,
+        speed: 300,
+        // slidesToShow: 4,
+        slidesToScroll: 4,
+        slidesPerRow: 4, 
+        rows: 2,
+        draggable: true,
+        dots: false,
+        arrows: true, 
+        responsive: [
+            {
+            breakpoint: 1200,
+            settings: {
+                slidesToScroll: 3,
+                slidesPerRow: 3, 
+                rows: 2, 
+            }
+            },
+            {
+            breakpoint: 900,
+            settings: {
+                slidesToScroll: 2, 
+                slidesPerRow: 2, 
+                rows: 2, 
+            }
+            },
+            {
+            breakpoint: 600,
+            settings: {
+                slidesToScroll: 1, 
+                slidesPerRow: 1, 
+                rows: 2, 
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToScroll: 1, 
+                slidesPerRow: 1, 
+                rows: 1, 
+            }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
+
+</script>

@@ -1,0 +1,16 @@
+baseURL = 'https://jwst-uncover.github.io/'
+languageCode = 'en-us'
+title = "JWST UNCOVER project"
+relativeURLS = true
+publishdir = "./public/"
+
+
+uglyurls = true
+disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "category", "RSS"]
+
+
+[markup.goldmark.renderer]
+unsafe= true
+
+
+disablePathToLower = true

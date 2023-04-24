@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+
+      <body class="is-preload">
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+
+                <!-- Header -->
+                    <header id="header">
+                        <div class="logo" style="border: none;">
+                            <span class="image main">
+                                <img src="images/UNCOVER_logo_white.png" alt="" />
+                            </span>
+                        </div>
+                        <div class="content">
+                            <div class="inner">
+                                <h1>JWST UNCOVER Program</h1>
+                                <h3>PIs Ivo Labbe and Rachel Bezanson</h3>
+                                <p><strong>U</strong>ltradeep <strong>N</strong>IRSpec and NIR<strong>C</strong>am <strong>O</strong>bser<strong>V</strong>ations before the <strong>E</strong>poch of <strong>R</strong>eionization</p>
+                                <p>UltraDeep NIRCam/NIRISS Imaging and <br />
+                                Deep Low Resolution NIRSPEC PRISM Spectroscopy of JWST-selected targets in Abell 2744</p>
+                                
+                                <!-- <p>NEWS HERE!</p> -->
+                            </div>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#overview">Overview</a></li>
+                                <li><a href="#science">Science</a></li>
+                                <li><a style="padding-left: 0.85rem; padding-right: 0.75rem;" href="#releases">Data Releases</a></li>
+                                <li><a href="#publications">Publications</a></li>
+                                <li><a href="#team">Team</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li class="highlight"><a href="/news.html">News</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+
+
+
+            <!-- Main content -->
+            <div id="main">
+                <!-- {{- block "main" . }}{{- end }} -->
+                <!-- {{ .Content }} -->
+
+                <!-- Intro -->
+                <article id="overview">
+                    <h2 class="major">Survey Overview</h2>
+                    <span class="image main"><img src="images/field_layout.png" alt="" /></span>
+                    
+                    {{ with .Site.GetPage "/overview" }}{{ .Content }}{{ end }}
+                </article>
+
+
+                <!-- Work -->
+                <article id="science">
+
+                    <h2 class="major">Science</h2>
+                    <span class="image main"><img src="images/UNCOVER_logo_jwst_background.jpg" alt="" /></span>
+
+                    {{ with .Site.GetPage "/science" }}{{ .Content }}{{ end }}
+                </article>
+
+                <!-- Data releases -->
+                    <article id="releases">
+
+                        <h2 class="major">Data releases</h2>
+
+                        <h3 class="minor">Acknowledgement</h3>
+                        <p style="margin-bottom: 3rem">Please cite the survey paper (<a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204026B/abstract">Bezanson et al. 2022</a>) 
+                            for any publications using UNCOVER data products, 
+                            as well the other publications noted for specific releases.
+                        </p>
+
+                        {{ with .Site.GetPage "/releases_overview" }}{{ .Content }}{{ end }}
+                    </article>
+
+
+                <!-- Publications -->
+                    <article id="publications" class="publications">
+                        <h2 class="major">Publications</h2>
+
+                        <!-- <ol class="publications"> -->
+                            <!-- {{ with .Site.GetPage "/publications" }}{{ .Content }}{{ end }} -->
+                        <!-- </ol> -->
+
+                        {{ with .Site.GetPage "/publications" }}{{ .Content }}{{ end }}
+
+                    </article>
+
+                <!-- Team -->
+                    <article id="team" class="plain-links two-column">
+                        <!-- <div id="team-include"></div> -->
+                        <div class="flex-horizontal">
+                            <h2 class="major">Team</h2>
+                            <h4><a href="https://sites.google.com/view/jwst-uncover/home">Internal website</a></h4>
+                        </div>
+                        <span class="image main"><img src="images/UNCOVER_map.png" alt="" /></span>
+                        <!-- <ul> -->
+                            
+                        {{ with .Site.GetPage "/team" }}{{ .Content }}{{ end }}
+                        <!-- </ul> -->
+
+                        <i>(Survey builders are denoted in <b>bold</b>.)</i>
+                    </article>
+
+
+
+                    
+
+                <!-- Contact -->
+                    <article id="contact">
+                        <span class="image main"><img src="images/UNCOVER_logo_white.png" alt="" /></span>
+                        <h2 class="major">Contact</h2>
+                            <p>Send us an email at jwstuncover - at - gmail.com !</p>
+                    </article>
+
+                    
+            </div>
+
+
+                <!-- Footer -->
+                {{- partial "footer.html" . -}}
+
+
+            </div>
+
+        <!-- BG -->
+            <div id="bg"></div>
+
+        <!-- Scripts -->
+      {{- partial "scripts_bootstrap.html" . -}}
+      {{- partial "scripts_html5up.html" . -}}
+      {{- partial "scripts_counter.html" . -}}
+
+
+    </body>
+</html>
+
+
+
+

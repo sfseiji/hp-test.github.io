@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head_slick.html" . -}}
+
+      <body class="is-preload">
+
+        <!-- Wrapper -->
+            <div id="wrapper" class="alt-news">
+
+                <!-- Header -->
+                    <header id="header" class="alt-news">
+
+                        <nav class="wide-display">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/#overview">Overview</a></li>
+                                <li><a href="/#science">Science</a></li>
+                                <li><a style="width: 10rem;" href="#releases">Data Releases</a></li>
+                                <li><a href="/#publications">Publications</a></li>
+                                <li><a href="/#team">Team</a></li>
+                                <li><a href="/#contact">Contact</a></li>
+                                <li class="highlight"><a href="#">News</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="image alt main narrow-display">
+                            <img src="images/UNCOVER_logo_white.png" alt="" />
+                        </div>
+                        
+                        <div class="content">
+                            <div class="image alt main wide-display">
+                                <img src="images/UNCOVER_logo_white.png" alt="" />  
+                            </div>
+
+                            <div class="inner alt">
+                                {{- partial  "news_carousel.html" . -}}
+                            </div>
+                        </div>
+
+                        <nav class="narrow-display">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/#overview">Overview</a></li>
+                                <li><a href="/#science">Science</a></li>
+                                <li><a style="width: 10rem;" href="#releases">Data Releases</a></li>
+                                <li><a href="/#publications">Publications</a></li>
+                                <li><a href="/#team">Team</a></li>
+                                <li><a href="/#contact">Contact</a></li>
+                                <li class="highlight"><a href="#">News</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+
+
+
+            <!-- Main content -->
+            <div id="main">
+                {{ range (where .Site.RegularPages "Section" "news") }}
+
+                    <!-- News -->
+                    {{ $anchorized := anchorize .Page.Title }}
+                    <article id="{{ $anchorized }}" class="news">
+
+                        <h1>{{ .Title }}</h1>
+                        <h3>{{ dateFormat "Jan. 2, 2006" .Page.Date }}</h3>
+
+                        <div class="image-side">
+
+                            {{ if (eq .Params.category "interview") }}
+
+                                {{ $img_found := false }}
+                                {{ with .Resources.ByType "image" }}
+                                    {{ range . }}
+                                    <img src="{{ .RelPermalink }}"  width="{{ .Width }}"  height="{{ .Height }}" class="image-interview"  alt="">
+                                    {{ $img_found = true }}
+                                    {{ end }}
+                                {{ end }}
+
+                                {{ if (eq $img_found false) }}
+                                    {{ if isset .Params "imageurl" }}
+                                    <img src="{{ .Params.imageurl }}" class="image-interview"  alt="">
+                                    {{ end }}
+                                {{ end }}
+
+                            {{ else }}
+                                {{ $img_found := false }}
+                                {{ with .Resources.ByType "image" }}
+                                    {{ range . }}
+                                    <img src="{{ .RelPermalink }}"  width="{{ .Width }}"  height="{{ .Height }}" class="image-news"  alt="">
+                                    {{ $img_found = true }}
+                                    {{ end }}
+                                {{ end }}
+
+                                {{ if (eq $img_found false) }}
+                                    {{ if isset .Params "imageurl" }}
+                                    <img src="{{ .Params.imageurl }}" class="image-news"  alt="">
+                                    {{ end }}
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                        <!-- <div class="news-text"> -->
+                            {{ .Content }}
+                        <!-- </div> -->
+                    </article>
+                {{ end }}
+                    
+            </div>
+
+                <!-- Footer -->
+                {{- partial "footer_alt.html" . -}}
+
+
+            </div>
+
+        <!-- BG -->
+            <div id="bg"></div>
+
+        <!-- Scripts -->
+      {{- partial "scripts_bootstrap.html" . -}}
+      {{- partial "scripts_html5up.html" . -}}
+      {{- partial "scripts_slick.html" . -}}
+      {{- partial "scripts_counter.html" . -}}
+
+
+    </body>
+</html>
+
+
+
+

@@ -1,0 +1,45 @@
+<div class="news-carousel" >
+  {{ range (where .Site.RegularPages "Section" "news") }}
+
+  <div class="indiv-slide-outer">
+
+  
+  <div class="indiv-slide">
+
+    {{ $anchorized := anchorize .Page.Title }}
+    <a href="#{{ $anchorized }}">
+
+    <div class="card bg-dark align-middle">
+      {{ $img_found := false }}
+      {{ with .Resources.ByType "image" }}
+        {{ range . }}
+        {{ with .Fill "1200x600" }}
+          <img src="{{ .RelPermalink }}"  width="{{ .Width }}"  height="{{ .Height }}" class="card-img-top"  alt="">
+          {{ $img_found = true }}
+        {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ if (eq $img_found false) }}
+        {{ if isset .Params "imageurl" }}
+          <img src="{{ .Params.imageurl }}" class="card-img-top"  alt="">
+        {{ else }}
+          <img src="/images/UNCOVER_A2744_NWcore.png" width="900" height="300" class="card-img-top"  alt="">
+        {{ end }}
+      {{ end }}
+      <div class="card-body align-items-center justify-content-center d-flex">
+        <div>
+          <p class="card-title">{{ dateFormat "Jan. 2, 2006" .Page.Date }}</p>
+          <h3 class="card-text">
+            {{ .Page.Title }}
+          </h3>
+        </div>
+      </div>
+    </div>
+    </a>
+
+  </div>
+  </div>
+{{ end }}
+
+</div>
