@@ -553,6 +553,7 @@ img.image-news {
     max-height: 20rem; 
     height: auto; 
     width: auto; 
+    padding-bottom: 1rem; 
 }
 
 img.image-interview {
@@ -566,6 +567,9 @@ img.image-interview {
     padding-bottom: 1rem; 
 }
 
+.alt-news p {
+    margin-bottom: 1rem; 
+}
 
 .alt-news .image-side p {
     text-align: justify;

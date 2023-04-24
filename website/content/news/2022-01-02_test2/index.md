@@ -1,6 +1,6 @@
 +++
 title = "Test 2"
-draft = false
+draft = true
 type = "news"
 date = "2022-01-02"
 +++
