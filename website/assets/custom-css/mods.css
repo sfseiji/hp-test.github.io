@@ -2,6 +2,7 @@
 :root {
     --fontweight-navbar-highlight: 600; 
     --color-navbar-highlight: rgba(229, 160, 90, 1); 
+    --color-link-credit: #acacac; 
   }
 
 
@@ -203,6 +204,8 @@ input[type="button"], button, .button {
     text-decoration: none;
     border-bottom-width: 0; 
 }
+
+
 
 .content .news-carousel {
     display: flex;
@@ -562,7 +565,7 @@ img.image-news {
     max-height: 20rem; 
     height: auto; 
     width: auto; 
-    padding-bottom: 1rem; 
+    /* padding-bottom: 1rem;  */
 }
 
 img.image-interview {
@@ -573,13 +576,29 @@ img.image-interview {
     height: auto; 
     float: right; 
     padding-left: 1rem; 
-    padding-bottom: 1rem; 
+    /* padding-bottom: 1rem;  */
 }
 
 .alt-news p {
     margin-bottom: 1rem; 
 }
 
+.alt-news .image-side {
+    padding-bottom: 1rem;
+    margin-bottom: 0; 
+}
+
 .alt-news .image-side p {
-    text-align: justify;
+    /* text-align: justify; */
+    font-style: italic;
+    font-size: 0.8rem; 
+    color: var(--color-link-credit); 
+    margin-bottom: 0.25rem; 
+}
+
+
+.alt-news .image-side a, 
+.alt-news .image-side a:hover {
+    color: var(--color-link-credit)!important; 
+    border-bottom-color: var(--color-link-credit)!important; 
 }

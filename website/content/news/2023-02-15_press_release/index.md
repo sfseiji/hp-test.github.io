@@ -4,6 +4,7 @@ draft = false
 type = "news"
 date = "2023-02-15"
 imageurl = "https://stsci-opo.org/STScI-01GQQF2ZQN2F3SP59XFHNYKQ4V.png"
+imagecredit = "SCIENCE: NASA, ESA, CSA, Ivo Labbe (Swinburne), Rachel Bezanson (University of Pittsburgh); IMAGE PROCESSING: Alyssa Pagan (STScI)"
 +++
 
 The UNCOVER color mosaics were featured in an official STScI press release! 

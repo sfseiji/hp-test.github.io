@@ -3,7 +3,7 @@ title = "NIRCam primary / NIRISS parallel mosaic release"
 draft = false
 type = "news"
 date = "2022-12-07"
-imageurl = "https://s3.amazonaws.com/adsabs-thumbnails/seri/arXiv/arXiv/2212/04026/arxiv2212.04026_f1.png"
+imagecredit = "<a href='https://ui.adsabs.harvard.edu/abs/2022arXiv221204026B/abstract'>Bezanson et al. 2022</a>"
 +++
 
 The reduced images from the UNCOVER pre-imaging observations (Nov 2,4,7, & 15, 2022) are now available! 
