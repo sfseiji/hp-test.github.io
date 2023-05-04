@@ -1982,7 +1982,10 @@
             _.windowDelay = window.setTimeout(function() {
                 _.windowWidth = $(window).width();
                 _.checkResponsive();
-                if( !_.unslicked ) { _.setPosition(); }
+                if( !_.unslicked ) { 
+
+                    _.setPosition(); 
+                }
             }, 50);
         }
     };
@@ -2070,7 +2073,14 @@
             }
         }
 
-        _.listWidth = _.$list.width();
+        // _.listWidth = _.$list.width();
+        if (_.listWidth == null){
+            _.listWidth = _.$list.width();
+        } else {
+            _.listWidth = Math.max(_.$list.width(), _.listWidth)
+        }
+        
+
         _.listHeight = _.$list.height();
 
 
