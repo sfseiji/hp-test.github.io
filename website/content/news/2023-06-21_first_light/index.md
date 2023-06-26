@@ -1,6 +1,6 @@
 +++
 title = "UNCOVER at MIT First Light"
-draft = true
+draft = false
 type = "news"
 date = "2023-06-26"
 imagecredit = "Louis from TikTok"
