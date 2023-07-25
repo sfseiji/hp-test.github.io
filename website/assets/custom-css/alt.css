@@ -737,8 +737,13 @@ a {
     padding-top: 0rem; 
 }
 
+
+h3.minor {
+    margin-bottom: 0.5rem; 
+}
+
 h4.date {
-    margin-top: -0.5rem; 
+    /* margin-top: -0.5rem;  */
     margin-bottom: 1.25rem; 
 }
 
