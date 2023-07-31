@@ -19,7 +19,7 @@ headless = true
 - Marijn Franx (Leiden)
 - Yoshi Fudamoto (Waseda)
 - [Seiji Fujimoto](https://sf-seiji.com/) (UTAustin)
-- Lukas Furtak (Ben Gurion)
+- **Lukas Furtak** (Ben Gurion)
 - Marla Geha (Yale)
 - Karl Glazebrook (Swinburne)
 - [Andy Goulding](https://www.astro.princeton.edu/~goulding/) (Princeton)
