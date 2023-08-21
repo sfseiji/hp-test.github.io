@@ -27,7 +27,7 @@ DR1
 <!-- Lensing map release -->
 <h4 class="minor bigger">
     <a href="DR1.html#LensingMaps">UNCOVER Abell 2744 lens model release</a>
-    <div class="smaller">(<a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204381F/abstract">Furtak et al. 2022</a>, December 14, 2022; 
+    <div class="smaller">(<a href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.4568F/abstract">Furtak et al. 2023</a>, December 14, 2022; 
     v1.1 update: July 25, 2023)</div>
 </h4>
 
