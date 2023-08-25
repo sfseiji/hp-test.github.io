@@ -45,3 +45,18 @@ headless = true
 1. [First spectroscopic observations of the galaxies that reionized the Universe](https://ui.adsabs.harvard.edu/abs/2023arXiv230808540A/abstract)
     -  Atek, H., Labbe, I., Furtak, L. J., et al., 
         2023, arXiv:2308.08540
+
+
+1. [UNCOVER: A NIRSpec Census of Lensed Galaxies at z=8.50-13.08 Probing a High AGN Fraction and Ionized Bubbles in the Shadow](https://ui.adsabs.harvard.edu/abs/2023arXiv230811609F/abstract)
+    -  Fujimoto, S., Wang, B., Weaver, J., et al., 
+        2023, arXiv:2308.11609
+
+
+1. [UNCOVER: A NIRSpec Identification of a Broad Line AGN at z = 8.50](https://ui.adsabs.harvard.edu/abs/2023arXiv230811610K/abstract)
+    -  Kokorev, V., Fujimoto, S., Labbe, I., et al., 
+        2023, arXiv:2308.11610
+
+
+1. [UNCOVER: JWST Spectroscopy of Three Cold Brown Dwarfs at Kiloparsec-scale Distances](https://ui.adsabs.harvard.edu/abs/2023arXiv230812107B/abstract)
+    -  Burgasser, A. J., Gerasimov, R., Bezanson, R., et al., 
+        2023, arXiv:2308.12107
