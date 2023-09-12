@@ -16,8 +16,10 @@ URL = "/DR2.html"
         <li><a href="#LensingMaps">Lensing maps</a></li>
         <li><a href="#PhotometricCatalogs">Photometric catalogs</a></li>
         <li><a href="#SPSCatalogs">Stellar population catalogs</a></li>
+        <li><a href="#DUALZ">DUALZ: ALMA x JWST</a></li>
     </ul>
 </div>
+
 
 
 <hr>
@@ -381,131 +383,13 @@ These mosaics include data from the following programs:
 <hr>
 <!-- Updated photometric catalogs release -->
 <h3 class="minor" id="PhotometricCatalogs">Updated photometric catalog release: NIRCam</h3>
-<h4 class="minor date">September XX, 2023</h4>
-<h5>Authors: John R. Weaver, Sam Cutler, Richard Pan, Kate Whitaker, and Lukas Furtak</h5>
-<p style="margin-bottom: 0.8rem">
-    <!-- This release includes  -->
-    Improved DR2 photometric catalogs from the full  
-    Abell 2744 NIRCam mosaics are now available!
-    These new measurements benefit from improved imaging calibration,
-    PSF characterization, object flagging, blend identification, and more.
+<!-- <h4 class="minor date">September XX, 2023</h4> -->
+
+<p style="margin-bottom: 2rem">
+    Coming soon!
 </p>
 
-<p style="margin-bottom: 0.2rem">
-    Most science applications will find the 'super' catalog easiest to use: 
-</p>
-<table class="plainlayouttable" style="margin-bottom: 1rem">
-<tr>
-    <td>         
-        <a href="https://drive.google.com/file/d/1b1GdsDnZblGGSALrPWNYCTd78e0c0qU3/view?usp=drive_link">Catalog</a> &nbsp; &nbsp; 
-        <a href="https://drive.google.com/file/d/1ANIt3bIPRLkVkZShxik7sOJHLf_1HCkI/view?usp=drive_link">README</a> &nbsp; &nbsp; 
-    </td>
-</tr>
-</table>
 
-<p style="margin-bottom: 1rem">
-    All catalogs are based on F444W PSF-matched imaging, 
-    where the bright cluster galaxies and ICL have been modeled and subtracted. 
-    Detection was performed on a noise-equalized long-wavelength image (F277W+F356W+F444W). 
-    <!--  -->
-    Basic photometric redshifts and rest-frame fluxes derived using EAZY, 
-    ALMA fluxes from Fujimoto et al. 2023 (to be submitted) where available, 
-    and lensing magnifications for each object based on the updated 
-    <a href=#LensingMaps>v1.1 lensing maps</a> of 
-    <a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204381F/abstract">Furtak et al. 2022</a> 
-    are also included in the catalogs. 
-    <!--  -->
-    For full details, please see the 
-    <a href="https://drive.google.com/file/d/1ANIt3bIPRLkVkZShxik7sOJHLf_1HCkI/view?usp=drive_link">README</a> 
-    and the <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230102671W/abstract">catalog paper</a>.
-</p>
-<p style="margin-bottom: 1.5rem">
-    Please cite <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230102671W/abstract">Weaver et al. 2023</a>
-    if using these photometric catalogs in any publication.
-</p>
-<!-- <table> -->
-<table style="margin-bottom:0; ">
-    <tr>
-        <th style="width:25%">Flux aperture</th>
-        <th style="width:45%">Intended use</th>
-        <th style="width:30%">Files</th>
-    </tr>
-    <tr>
-        <td>SUPER</td>
-        <td>Recommended catalog with automatically determined aperture sizes per object</td>
-        <td>         
-            <a href="https://drive.google.com/file/d/1b1GdsDnZblGGSALrPWNYCTd78e0c0qU3/view?usp=drive_link">Catalog</a> &nbsp; &nbsp; 
-            <a href="https://drive.google.com/file/d/1ANIt3bIPRLkVkZShxik7sOJHLf_1HCkI/view?usp=drive_link">README</a>&nbsp; &nbsp; 
-            <a href="https://drive.google.com/file/d/1MferdXcnmyBfHY-umnEUWYPjnqfrQOJV/view?usp=drive_link">Regions</a>
-        </td>
-    </tr>
-    <tr style="border-bottom: 0;">
-        <td>0.32", 0.48", 0.70", 1.00", and 1.40"</td>
-        <td>Single aperture catalogs for specific science applications 
-            (e.g., small radius for compact, faint, high-z, or crowded sources; ...)
-        </td>
-        <td>
-            <a href="https://drive.google.com/drive/folders/12KxezAF4EEQYBfWRc6rFEY1O0wpRJs8w?usp=drive_link">Catalogs</a> &nbsp; &nbsp; 
-            <a href="https://drive.google.com/file/d/1ANIt3bIPRLkVkZShxik7sOJHLf_1HCkI/view?usp=drive_link">README</a> 
-        </td>
-    </tr>
-</table>
-<table>
-    <tr>
-        <!-- <th style="width:40%">Ancillary products</th>
-        <th style="width:60%" colspan="2">Files</th> -->
-        <th style="width:25%">Ancillary products</th>
-        <th style="width:45%">Description</th>
-        <th style="width:30%">Files</th>        
-    </tr>
-    <tr>
-        <!-- <td>LW (F277W+F356W+F444W) detection</td> -->
-        <td>LW detection</td>
-        <td>Noise-equalized, PSF-matched F277W+F356W+F444W detection image</td>
-        <td>        
-            <a href="https://drive.google.com/file/d/1BkfxIskF-9mvsx3vKa8ff9Z3Yg38vHhS/view?usp=drive_link">Image</a> &nbsp; &nbsp; 
-            <a href="https://drive.google.com/file/d/1yI0XWrwVdcw7BhLnnwpOYqjHwh0Hd31P/view?usp=drive_link">Segmap</a> &nbsp; &nbsp; 
-            <a href="https://drive.google.com/file/d/18c7lGJqkHbmojNErwcwCbkKQcB9noS91/view?usp=drive_link">Regions</a> 
-        </td>
-    </tr>
-    <tr>
-        <td>Bright cluster galaxy (bCG) modeling</td>
-        <td>bCG-subtracted mosaics (non-PSF-matched) 
-            and bCG models</td>      
-        <td>        
-            <a href="">Images</a> &nbsp; &nbsp; 
-            <a href="">README</a> &nbsp; &nbsp; 
-            <a href="">Models</a> 
-        </td>
-    </tr>
-    <!-- <tr>
-        <td>PSFs and Kernels (to match F444W)</td><td colspan="2">        
-            <a href="https://drive.google.com/file/d/1XwpEWg9yzn1M9J4yk_0LMxmwyf9q_0d6/view?usp=drive_link">PSFs</a> &nbsp; &nbsp; 
-            <a href="https://drive.google.com/file/d/1ANpMcb6LJj1K_X9b-ty-EO2roLsLrHux/view?usp=drive_link">Kernels</a> 
-        </td>
-    </tr> -->
-    <tr>
-        <td>PSFs</td>
-        <td>Empirical PSFs for all filters</td>       
-        <td>
-            <a href="https://drive.google.com/file/d/1XwpEWg9yzn1M9J4yk_0LMxmwyf9q_0d6/view?usp=drive_link">FITS files</a>
-        </td>
-    </tr>
-    <tr>
-        <td>Kernels</td>  
-        <td>Convolution kernels for PSF matching all filters to F444W</td>
-        <td>
-            <a href="https://drive.google.com/file/d/1ANpMcb6LJj1K_X9b-ty-EO2roLsLrHux/view?usp=drive_link">FITS files</a> 
-        </td>
-    </tr>
-    <tr>
-        <td>Filter translation</td>
-        <td>EAZY zphot filter translation</td>
-        <td>
-            <a href="https://drive.google.com/file/d/1pdd_ry5lP_qEJ8ky8Vln60JCb9YqWN2K/view?usp=drive_link">zphot.translate</a>
-        </td>
-    </tr>
-</table>
 
 
 <hr>
@@ -516,3 +400,61 @@ These mosaics include data from the following programs:
 <p style="margin-bottom: 2rem">
     Coming soon!
 </p>
+
+
+
+
+<hr>
+<!-- DUALZ: ALMA x JWST Public Legacy Field Abell 2744 -->
+<h3 class="minor" id="DUALZ">DUALZ: ALMA x JWST Public Legacy Field Abell 2744</h3>
+<h4 class="minor date">September XX, 2023</h4>
+
+<p style="margin-bottom: 1rem">
+The <b>D</b>eep <b>U</b>NCOVER-<b>A</b>LMA <b>L</b>egacy High-<b>Z</b> (DUALZ) Survey. 
+v1.0 release. 
+</p>
+
+<p style="margin-bottom: 1.5rem">
+    Please cite 
+    <a href="">Fujimoto et al. 2023</a> 
+    when using any of the DUALZ products provided here. 
+</p>
+
+
+<table>
+    <tr>
+        <!-- <th style="width:40%">Ancillary products</th>
+        <th style="width:60%" colspan="2">Files</th> -->
+        <th style="width:20%">Products</th>
+        <th style="width:55%">Description</th>
+        <th style="width:25%">Files</th>        
+    </tr>
+    <tr>
+        <!-- <td>Catalog (v1.0)</td> -->
+        <td>Catalog</td>
+        <td>1.2mm detection catalog with fluxes and crossmatch to JWST sources</td>
+        <!-- <td>1.2mm detection catalog with fluxes, crossmatches</td> -->
+        <td>        
+            <a href="">FITS</a> &nbsp; &nbsp; 
+            <a href="">README</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Wide maps</td>
+        <td>Wide 1.2mm DUALZ continuum maps (XX sq arcmin)</td>      
+        <td>        
+            <a href="">Folder</a> &nbsp; &nbsp; 
+            <a href="">zip</a> &nbsp; &nbsp; 
+            <a href="">README</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>Deep maps</td>
+        <td>Deep 1.2mm DUALZ+ALCS+ALMA-HFF continuum maps (XX sq arcmin)</td>      
+        <td>        
+            <a href="">Folder</a> &nbsp; &nbsp; 
+            <a href="">zip</a> &nbsp; &nbsp; 
+            <a href="">README</a> 
+        </td>
+    </tr>
+</table>
