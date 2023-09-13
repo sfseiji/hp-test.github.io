@@ -19,3 +19,4 @@ Icon?
 
 # Hugo
 .hugo_build.lock 
+website/resources/_gen/images/news/
