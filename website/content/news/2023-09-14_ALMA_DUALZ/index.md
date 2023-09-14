@@ -1,6 +1,6 @@
 +++
 title = "DUALZ Survey: ALMA Catalogs and Maps in Abell 2744"
-draft = true
+draft = false
 type = "news"
 date = "2023-09-14"
 imagecredit = "<a href=''>Fujimoto et al. 2023</a>"
