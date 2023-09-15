@@ -67,6 +67,6 @@ headless = true
         2023, arXiv:2309.05714
 
         
-1. [DUALZ -- Deep UNCOVER-ALMA Legacy High-*Z* Survey](https://arxiv.org/abs/2309.07834)
+1. [DUALZ -- Deep UNCOVER-ALMA Legacy High-*Z* Survey](https://ui.adsabs.harvard.edu/abs/2023arXiv230907834F/abstract)
     -  Fujimoto, S., Bezanson, R., Labbe, I., et al., 
         2023, arXiv:2309.07834

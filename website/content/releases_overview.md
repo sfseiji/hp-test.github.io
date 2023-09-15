@@ -43,7 +43,7 @@ DR2
 <!-- SPS catalog release -->
 <h4 class="minor bigger">
     <a href="DR2.html#DUALZ">DUALZ Survey: ALMA Catalogs and Maps in Abell 2744</a>
-    <div class="smaller">(<a href="https://arxiv.org/abs/2309.07834">Fujimoto et al. 2023</a>, v1.0, September 14, 2023)</div>
+    <div class="smaller">(<a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230907834F/abstract">Fujimoto et al. 2023</a>, v1.0, September 14, 2023)</div>
 </h4>
 
 
