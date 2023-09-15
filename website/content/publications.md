@@ -60,3 +60,13 @@ headless = true
 1. [UNCOVER: JWST Spectroscopy of Three Cold Brown Dwarfs at Kiloparsec-scale Distances](https://ui.adsabs.harvard.edu/abs/2023arXiv230812107B/abstract)
     -  Burgasser, A. J., Gerasimov, R., Bezanson, R., et al., 
         2023, arXiv:2308.12107
+
+
+1. [UNCOVER spectroscopy confirms a surprising ubiquity of AGN in red galaxies at z>5](https://ui.adsabs.harvard.edu/abs/2023arXiv230905714G/abstract)
+    -  Greene, J. E., Labbe, I., Goulding, A. D., et al., 
+        2023, arXiv:2309.05714
+
+        
+1. [DUALZ -- Deep UNCOVER-ALMA Legacy High-*Z* Survey](https://ui.adsabs.harvard.edu/abs/2023arXiv230907834F/abstract)
+    -  Fujimoto, S., Bezanson, R., Labbe, I., et al., 
+        2023, arXiv:2309.07834

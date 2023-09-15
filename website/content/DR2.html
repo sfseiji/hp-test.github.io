@@ -16,8 +16,10 @@ URL = "/DR2.html"
         <li><a href="#LensingMaps">Lensing maps</a></li>
         <li><a href="#PhotometricCatalogs">Photometric catalogs</a></li>
         <li><a href="#SPSCatalogs">Stellar population catalogs</a></li>
+        <li><a href="#DUALZ">DUALZ: ALMA x JWST</a></li>
     </ul>
 </div>
+
 
 
 <hr>
@@ -382,26 +384,6 @@ These mosaics include data from the following programs:
 <!-- Updated photometric catalogs release -->
 <h3 class="minor" id="PhotometricCatalogs">Updated photometric catalog release: NIRCam</h3>
 <h4 class="minor date">September XX, 2023</h4>
-<h5>Authors: John R. Weaver, Sam Cutler, Richard Pan, Kate Whitaker, and Lukas Furtak</h5>
-<p style="margin-bottom: 0.8rem">
-    <!-- This release includes  -->
-    Improved DR2 photometric catalogs from the full  
-    Abell 2744 NIRCam mosaics are now available!
-    These new measurements benefit from improved imaging calibration,
-    PSF characterization, object flagging, blend identification, and more.
-</p>
-
-<p style="margin-bottom: 0.2rem">
-    Most science applications will find the 'super' catalog easiest to use: 
-</p>
-<table class="plainlayouttable" style="margin-bottom: 1rem">
-<tr>
-    <td>         
-        <a href="https://drive.google.com/file/d/1b1GdsDnZblGGSALrPWNYCTd78e0c0qU3/view?usp=drive_link">Catalog</a> &nbsp; &nbsp; 
-        <a href="https://drive.google.com/file/d/1ANIt3bIPRLkVkZShxik7sOJHLf_1HCkI/view?usp=drive_link">README</a> &nbsp; &nbsp; 
-    </td>
-</tr>
-</table>
 
 <p style="margin-bottom: 1rem">
     All catalogs are based on F444W PSF-matched imaging, 
@@ -510,3 +492,84 @@ These mosaics include data from the following programs:
 <p style="margin-bottom: 2rem">
     Coming soon!
 </p>
+
+
+
+
+<hr>
+<!-- DUALZ: ALMA x JWST Public Legacy Field Abell 2744 -->
+<h3 class="minor" id="DUALZ">DUALZ: ALMA x JWST Public Legacy Field Abell 2744</h3>
+<h4 class="minor date">September 14, 2023</h4>
+<h5>Author: Seiji Fujimoto</h5>
+
+<p style="margin-bottom: 1rem">
+The ALMA maps, cubes, and source catalog (v1.0) from the 
+<b>D</b>eep <b>U</b>NCOVER-<b>A</b>LMA <b>L</b>egacy High-<b>Z</b> (DUALZ) 
+Survey are now available!
+</p>
+
+
+<p style="margin-bottom: 1rem">
+DUALZ features a contiguous ~4'x6' ALMA 30-GHz-wide mosaic in Band 6, 
+covering all high magnification areas (&mu;>2) down to a sensitivity of 
+sigma = 32.7 &mu;Jy/beam, referred to as the "Wide" map. 
+<!-- </p>
+<p style="margin-bottom: 1rem"> -->
+To leverage the ancillary data sets from the previous ALMA programs in A2744, 
+we also created deep ALMA maps & cubes around the primary cluster (~2'x2') 
+by combining our data with that of ALMA-HFF 
+(<a href="https://ui.adsabs.harvard.edu/abs/2023A%26A...675A..85M/abstract">Muñoz Arancibia et al. 2023</a>) 
+and ALCS (<a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230301658F/abstract">Fujimoto et al. 2023b</a>), 
+referred to as "Deep" map. 
+The sensitivity decreases down to sigma = 27.7 &mu;Jy/beam in the Deep map. 
+The default products are produced with the natural weighting, 
+resulting the beam size of 1.02" x 0.77" (Wide) and 1.00" x 0.75" (Deep). 
+To avoid missing any strongly lensed (~distorted) objects, we also produced a 
+lower-resolution map and cube by applying a uv-taper parameter of 1.5" x 1.5".
+</p>
+
+<p style="margin-bottom: 1rem">
+The properties of our ALMA maps and cubes are summarized in 
+Table 2, Figure 3, and Figure 4 of <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230907834F/abstract">Fujimoto et al. 2023</a>.
+</p>
+
+<p style="margin-bottom: 1.5rem">
+    Please cite 
+    <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230907834F/abstract">Fujimoto et al. 2023</a> 
+    when using any of the DUALZ products provided here. 
+</p>
+
+
+<table>
+    <tr>
+        <th style="width:20%">Products</th>
+        <th style="width:55%">Description</th>
+        <th style="width:25%">Files</th>        
+    </tr>
+    <tr>
+        <td>Catalog</td>
+        <td>1.2mm detection catalog with fluxes and crossmatch to JWST sources</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1TOwEV1ziHOBkmvz3p56FMl8Tzt4LxIl1/view?usp=drive_link">FITS</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1urss_8lg5fBI5yGvDk0IS2LhV2whW6LL/view?usp=drive_link">README</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Wide maps</td>
+        <td>Wide 1.2mm DUALZ continuum maps (~24 sq arcmin)</td>      
+        <td>        
+            <a href="https://drive.google.com/drive/folders/1UTU4Hhu9Bb-AjTczJSt94wy0jmlNKdRx?usp=drive_link">Folder</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1T4nn9J7N5Re1PgviAIKE2hC6rQ74tbqk/view?usp=drive_link">zip</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1urss_8lg5fBI5yGvDk0IS2LhV2whW6LL/view?usp=drive_link">README</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>Deep maps</td>
+        <td>Deep 1.2mm DUALZ+ALCS+ALMA-HFF continuum maps (~4 sq arcmin)</td>      
+        <td>        
+            <a href="https://drive.google.com/drive/folders/1SzU_AAfMjzPN_7FttWs06ORxY-X1kJAX?usp=drive_link">Folder</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1dpMa8T-gI3n5dGzvXpNY32XXAsBcroZK/view?usp=drive_link">zip</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1urss_8lg5fBI5yGvDk0IS2LhV2whW6LL/view?usp=drive_link">README</a> 
+        </td>
+    </tr>
+</table>
