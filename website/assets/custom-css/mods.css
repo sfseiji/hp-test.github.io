@@ -565,7 +565,8 @@ div.smaller{
 
 img.image-news {
     max-width: 100%; 
-    max-height: 20rem; 
+    /* max-height: 20rem;  */
+    max-height: 30rem; 
     height: auto; 
     width: auto; 
     /* padding-bottom: 1rem;  */
