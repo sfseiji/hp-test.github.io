@@ -507,10 +507,12 @@ These mosaics include data from the following programs:
     and a dynamic SFH(M, z) prior from Prospector-beta to optimize 
     the photometric inference over the wide parameter space covered by deep 
     JWST surveys (<a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...944L..58W/abstract">Wang et al. 2023a</a>).
+    A second catalog with fixed redshifts to literature spec-zs 
+    (not including any UNCOVER MSA spec-zs) is also available. 
 </p>
 <p style="margin-bottom: 1rem">
     For full details, please see the 
-    <a href="">README</a> 
+    <a href="https://drive.google.com/file/d/1OQbNguPmbE4EWyui2KD55apg7zag7DR7/view?usp=drive_link">README</a> 
     and the <a href="">catalog paper</a>.
 </p>
 <p style="margin-bottom: 1.5rem">
@@ -520,64 +522,87 @@ These mosaics include data from the following programs:
 <!-- <table> -->
 <table style="margin-bottom:0; ">
     <tr>
-        <th style="width:25%">Product</th>
-        <th style="width:45%">Description</th>
-        <th style="width:30%">Files</th>        
+        <th style="width:22%">Product</th>
+        <th style="width:50%">Description</th>
+        <th style="width:20%">Files</th>        
     </tr>
-    <tr>
+    <tr style="border-bottom: double">
         <td>SPS catalog</td>
         <td>Stellar population catalog based on the DR2 SUPER photometric catalog with optimally determined aperture sizes per object</td>
         <td>         
-            <a href="">FITS</a> &nbsp; &nbsp; 
-            <a href="">README</a>
+            <a href="https://drive.google.com/file/d/1ngaJAEg-mV79qLVf276zv4rhfZoDgE8S/view?usp=drive_link">FITS</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1OQbNguPmbE4EWyui2KD55apg7zag7DR7/view?usp=drive_link">README</a>
+        </td>
+    </tr> 
+    <tr>
+        <td>Quicklook notebook</td>
+        <td>Jupyter notebook for plotting the maximum-likelihood SEDs, SFH percentiles, and posteriors</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1vB3Rc8pOmP9ZioV3MERP-I-7xw03xe45/view?usp=drive_link">Notebook</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>Chains</td>
+        <td>Full posteriors for the default SPS catalog</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1hT_O42a6bfAfKW6HildDCpOuwYLoObw3/view?usp=drive_link">npz</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1OQbNguPmbE4EWyui2KD55apg7zag7DR7/view?usp=drive_link">README</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>SEDs</td>
+        <td>Best-fit models for the default SPS catalog, for visualization purposes</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/18tkwWuhJ-jC5gcsdJafN8l-gyjyZh5DG/view?usp=drive_link">npz</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1OQbNguPmbE4EWyui2KD55apg7zag7DR7/view?usp=drive_link">README</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>SFHs</td>
+        <td>SFH percentiles for the default SPS catalog (in lookback time, Gyr)</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1nYhkRiuNsCDcfakVOrMJt8KgsRKSZP-c/view?usp=drive_link">npz</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1OQbNguPmbE4EWyui2KD55apg7zag7DR7/view?usp=drive_link">README</a> 
         </td>
     </tr>
 </table>
 <table>
     <tr>
-        <th style="width:25%">Product</th>
-        <th style="width:45%">Description</th>
-        <th style="width:30%">Files</th>        
+        <th style="width:22%">Product</th>
+        <th style="width:50%">Description</th>
+        <th style="width:20%">Files</th>          
+    </tr>
+    <tr style="border-bottom: double">
+        <td>SPS catalog, zspec</td>
+        <td>SPS modeling using DR2 SUPER photometry, fixing 
+            the redshift to spec-zs from the literature (not including any UNCOVER MSA zspecs)</td>
+        <td>         
+            <a href="https://drive.google.com/file/d/1TALp-8C8AL8EF32Yzb0BSARSxPljteGX/view?usp=drive_link">FITS</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1OQbNguPmbE4EWyui2KD55apg7zag7DR7/view?usp=drive_link">README</a>
+        </td>
     </tr>
     <tr>
-        <!-- <td>LW (F277W+F356W+F444W) detection</td> -->
-        <td>LW detection</td>
-        <td>Noise-equalized F277W+F356W+F444W detection image</td>
+        <td>Chains, zspec</td>
+        <td>Full posteriors for the SPS catalog with fixed zspec</td>
         <td>        
-            <a href="https://drive.google.com/file/d/1BkfxIskF-9mvsx3vKa8ff9Z3Yg38vHhS/view?usp=drive_link">Image</a> &nbsp; &nbsp; 
-            <a href="https://drive.google.com/file/d/1yI0XWrwVdcw7BhLnnwpOYqjHwh0Hd31P/view?usp=drive_link">Segmap</a> &nbsp; &nbsp; 
-            <a href="https://drive.google.com/file/d/18c7lGJqkHbmojNErwcwCbkKQcB9noS91/view?usp=drive_link">Regions</a> 
+            <a href="https://drive.google.com/file/d/1ipomIXshvXvfM8r7E02AvjD1tAY52ut2/view?usp=drive_link">npz</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1OQbNguPmbE4EWyui2KD55apg7zag7DR7/view?usp=drive_link">README</a> 
         </td>
     </tr>
     <tr>
-        <td>Bright cluster galaxy (bCG) modeling</td>
-        <td>bCG-subtracted mosaics (non-PSF-matched) 
-            and bCG models</td>      
+        <td>SEDs, zspec</td>
+        <td>Best-fit models for the SPS catalog with fixed zspec, for visualization purposes</td>
         <td>        
-            <a href="https://drive.google.com/drive/folders/1wdYLxb1zcGpSRAbAdTu8oq2b6XAyPyxf?usp=drive_link">Images</a> &nbsp; &nbsp; 
-            <a href="https://drive.google.com/file/d/1oOejpM-y6Jc8TPZi6OMiwowJmirbkcLy/view?usp=drive_link">README</a> &nbsp; &nbsp; 
-            <a href="https://drive.google.com/drive/folders/1BmCMRViJygf38l8dJdhWVV5ZUxKri-Vc?usp=drive_link">Models</a> 
+            <a href="https://drive.google.com/file/d/1AMjRr79ZInKB8Ptp-otzs0VbM2iizriv/view?usp=drive_link">npz</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1OQbNguPmbE4EWyui2KD55apg7zag7DR7/view?usp=drive_link">README</a> 
         </td>
     </tr>
     <tr>
-        <td>PSFs</td>
-        <td>Empirical PSFs for all filters</td>       
-        <td>
-            <a href="https://drive.google.com/file/d/1XwpEWg9yzn1M9J4yk_0LMxmwyf9q_0d6/view?usp=drive_link">FITS files</a>
-        </td>
-    </tr>
-    <tr>
-        <td>Kernels</td>  
-        <td>Convolution kernels for PSF matching all filters to F444W</td>
-        <td>
-            <a href="https://drive.google.com/file/d/1ANpMcb6LJj1K_X9b-ty-EO2roLsLrHux/view?usp=drive_link">FITS files</a> 
-        </td>
-    </tr>
-    <tr>
-        <td>Filter translation</td>
-        <td>EAZY zphot filter translation</td>
-        <td>
-            <a href="https://drive.google.com/file/d/1pdd_ry5lP_qEJ8ky8Vln60JCb9YqWN2K/view?usp=drive_link">zphot.translate</a>
+        <td>SFHs, zspec</td>
+        <td>SFH percentiles for the SPS catalog with fixed zspec (in lookback time, Gyr)</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1iCn5C9q03i22B1xNxqJ_hx1iz-_57awS/view?usp=drive_link">npz</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1OQbNguPmbE4EWyui2KD55apg7zag7DR7/view?usp=drive_link">README</a> 
         </td>
     </tr>
 </table>
