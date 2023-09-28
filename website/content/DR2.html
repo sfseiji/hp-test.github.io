@@ -402,7 +402,8 @@ These mosaics include data from the following programs:
     <a href=#LensingMaps>v1.1 lensing maps</a> of 
     <a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204381F/abstract">Furtak et al. 2022</a> 
     are also included in the catalogs.  -->
-    <!--  -->
+</p>
+<p style="margin-bottom: 1rem">
     For full details, please see the 
     <a href="https://drive.google.com/file/d/1ANIt3bIPRLkVkZShxik7sOJHLf_1HCkI/view?usp=drive_link">README</a> 
     and the <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230102671W/abstract">catalog paper</a>.
@@ -491,13 +492,96 @@ These mosaics include data from the following programs:
 
 
 <hr>
-<!-- Initial photometric catalogs release -->
+<!-- Stellar populations catalogs release -->
 <h3 class="minor" id="SPSCatalogs">Stellar population catalogs release</h3>
-<!-- <h4 class="minor date">September XX, 2023</h4> -->
+<h4 class="minor date">October 2, 2023</h4>
 
-<p style="margin-bottom: 2rem">
-    Coming soon!
+<p style="margin-bottom: 1rem">
+    The UNCOVER DR2 stellar population sythesis (SPS) catalog is 
+    based on the "SUPER" DR2 photometric catalog, with optimally determined 
+    aperture sizes per object. 
+    The SPS modeling is performed with the Prospector inference framework 
+    (<a href="https://ui.adsabs.harvard.edu/abs/2021ApJS..254...22J/abstract">Johnson et al. 2021</a>). 
+    The modeling assumes a non-parametric, logarithmically-spaced SFH, 
+    as well as a mass function prior, a Gaussian mass-metallicity prior, 
+    and a dynamic SFH(M, z) prior from Prospector-beta to optimize 
+    the photometric inference over the wide parameter space covered by deep 
+    JWST surveys (<a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...944L..58W/abstract">Wang et al. 2023a</a>).
 </p>
+<p style="margin-bottom: 1rem">
+    For full details, please see the 
+    <a href="">README</a> 
+    and the <a href="">catalog paper</a>.
+</p>
+<p style="margin-bottom: 1.5rem">
+    Please cite <a href="">Wang et al. 2023b</a>
+    when using any of the following data products.
+</p>
+<!-- <table> -->
+<table style="margin-bottom:0; ">
+    <tr>
+        <th style="width:25%">Product</th>
+        <th style="width:45%">Description</th>
+        <th style="width:30%">Files</th>        
+    </tr>
+    <tr>
+        <td>SPS catalog</td>
+        <td>Stellar population catalog based on the DR2 SUPER photometric catalog with optimally determined aperture sizes per object</td>
+        <td>         
+            <a href="">FITS</a> &nbsp; &nbsp; 
+            <a href="">README</a>
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <th style="width:25%">Product</th>
+        <th style="width:45%">Description</th>
+        <th style="width:30%">Files</th>        
+    </tr>
+    <tr>
+        <!-- <td>LW (F277W+F356W+F444W) detection</td> -->
+        <td>LW detection</td>
+        <td>Noise-equalized F277W+F356W+F444W detection image</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1BkfxIskF-9mvsx3vKa8ff9Z3Yg38vHhS/view?usp=drive_link">Image</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1yI0XWrwVdcw7BhLnnwpOYqjHwh0Hd31P/view?usp=drive_link">Segmap</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/18c7lGJqkHbmojNErwcwCbkKQcB9noS91/view?usp=drive_link">Regions</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>Bright cluster galaxy (bCG) modeling</td>
+        <td>bCG-subtracted mosaics (non-PSF-matched) 
+            and bCG models</td>      
+        <td>        
+            <a href="https://drive.google.com/drive/folders/1wdYLxb1zcGpSRAbAdTu8oq2b6XAyPyxf?usp=drive_link">Images</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1oOejpM-y6Jc8TPZi6OMiwowJmirbkcLy/view?usp=drive_link">README</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/drive/folders/1BmCMRViJygf38l8dJdhWVV5ZUxKri-Vc?usp=drive_link">Models</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>PSFs</td>
+        <td>Empirical PSFs for all filters</td>       
+        <td>
+            <a href="https://drive.google.com/file/d/1XwpEWg9yzn1M9J4yk_0LMxmwyf9q_0d6/view?usp=drive_link">FITS files</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Kernels</td>  
+        <td>Convolution kernels for PSF matching all filters to F444W</td>
+        <td>
+            <a href="https://drive.google.com/file/d/1ANpMcb6LJj1K_X9b-ty-EO2roLsLrHux/view?usp=drive_link">FITS files</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>Filter translation</td>
+        <td>EAZY zphot filter translation</td>
+        <td>
+            <a href="https://drive.google.com/file/d/1pdd_ry5lP_qEJ8ky8Vln60JCb9YqWN2K/view?usp=drive_link">zphot.translate</a>
+        </td>
+    </tr>
+</table>
+
 
 
 

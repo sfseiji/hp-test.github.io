@@ -3,6 +3,7 @@ title = "DR2 photometric & SPS catalogs release"
 draft = true
 type = "news"
 date = "2023-10-02"
+imagecredit = "<a href='https://ui.adsabs.harvard.edu/abs/2023arXiv230102671W/abstract'>Weaver et al. 2023</a>"
 +++
 
 New DR2 photometric (presented in [Weaver et al. 2023](#)) and SPS (presented in [Wang et al. 2023](#)) catalogs are available! 
