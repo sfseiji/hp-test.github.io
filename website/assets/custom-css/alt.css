@@ -765,9 +765,15 @@ table {
         border-right: 0;
     }
 
-        table tbody tr:nth-child(2n + 1) {
+        /* table tbody tr:nth-child(2n + 1) {
             background-color: var(--table-border);
-        }
+        } */
+
+    table tr {
+        border: solid 1px var(--table-border);
+        border-left: 0;
+        border-right: 0;
+    }
 
     table td {
         padding: 0.75em 0.75em;
