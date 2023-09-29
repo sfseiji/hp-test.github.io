@@ -383,13 +383,113 @@ These mosaics include data from the following programs:
 <hr>
 <!-- Updated photometric catalogs release -->
 <h3 class="minor" id="PhotometricCatalogs">Updated photometric catalog release</h3>
-<!-- <h4 class="minor date">September XX, 2023</h4> -->
+<h4 class="minor date">September 29, 2023</h4>
 
-<p style="margin-bottom: 2rem">
-    Coming soon!
+<p style="margin-bottom: 1rem">
+    The DR2 Photometric Catalog contains significant improvements 
+    over DR1 including a "SUPER" catalog with photometry determined 
+    from optimally-selected color apertures, improved identification of 
+    stars and artifacts, and the complete 49 sq arcmin coverage of 
+    all available JWST imaging over Abell 2744.
 </p>
-
-
+<p style="margin-bottom: 1rem">
+    All catalogs are based on F444W PSF-matched imaging, 
+    where the bright cluster galaxies and ICL have been modeled and subtracted. 
+    Detection was performed on a noise-equalized long-wavelength image (F277W+F356W+F444W). 
+    <!--  -->
+    In addition to photometry, the catalogs contain basic photometric
+    redshifts and rest-frame fluxes derived using EAZY, 
+    ALMA fluxes from DUALZ (<a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230907834F/abstract">Fujimoto et al. 2023</a>) 
+    where available, and lensing magnifications for each object based on the updated 
+    <a href=#LensingMaps>v1.1 lensing maps</a> of 
+    <a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204381F/abstract">Furtak et al. 2022</a>. 
+</p>
+<p style="margin-bottom: 1rem">
+    For full details, please see the 
+    <a href="https://drive.google.com/file/d/1ANIt3bIPRLkVkZShxik7sOJHLf_1HCkI/view?usp=drive_link">README</a> 
+    and the <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230102671W/abstract">catalog paper</a>.
+</p>
+<p style="margin-bottom: 1.5rem">
+    Please cite <a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230102671W/abstract">Weaver et al. 2023</a>
+    when using any of the following data products.
+</p>
+<!-- <table> -->
+<table style="margin-bottom:0; ">
+    <tr>
+        <th style="width:25%">Flux aperture</th>
+        <th style="width:45%">Intended use</th>
+        <th style="width:30%">Files</th>
+    </tr>
+    <tr>
+        <td>SUPER</td>
+        <td>Recommended catalog with optimally determined aperture sizes per object</td>
+        <td>         
+            <a href="https://drive.google.com/file/d/1Qp_myIqr8acngOC3MCRCPk4XYHcDET7H/view?usp=drive_link">Catalog</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1ANIt3bIPRLkVkZShxik7sOJHLf_1HCkI/view?usp=drive_link">README</a>&nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1MferdXcnmyBfHY-umnEUWYPjnqfrQOJV/view?usp=drive_link">Regions</a>
+        </td>
+    </tr>
+    <tr style="border-bottom: 0;">
+        <td>0.32", 0.48", 0.70", 1.00", and 1.40"</td>
+        <td>Single aperture catalogs for specific science applications 
+            (e.g., small radius for compact, faint, high-z, or crowded sources; ...)
+        </td>
+        <td>
+            <a href="https://drive.google.com/drive/folders/12KxezAF4EEQYBfWRc6rFEY1O0wpRJs8w?usp=drive_link">Catalogs</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1ANIt3bIPRLkVkZShxik7sOJHLf_1HCkI/view?usp=drive_link">README</a> 
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <!-- <th style="width:40%">Ancillary products</th>
+        <th style="width:60%" colspan="2">Files</th> -->
+        <th style="width:25%">Ancillary products</th>
+        <th style="width:45%">Description</th>
+        <th style="width:30%">Files</th>        
+    </tr>
+    <tr>
+        <!-- <td>LW (F277W+F356W+F444W) detection</td> -->
+        <td>LW detection</td>
+        <td>Noise-equalized F277W+F356W+F444W detection image</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1BkfxIskF-9mvsx3vKa8ff9Z3Yg38vHhS/view?usp=drive_link">Image</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1yI0XWrwVdcw7BhLnnwpOYqjHwh0Hd31P/view?usp=drive_link">Segmap</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/18c7lGJqkHbmojNErwcwCbkKQcB9noS91/view?usp=drive_link">Regions</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>Bright cluster galaxy (bCG) modeling</td>
+        <td>bCG-subtracted mosaics (non-PSF-matched) 
+            and bCG models</td>      
+        <td>        
+            <a href="https://drive.google.com/drive/folders/1wdYLxb1zcGpSRAbAdTu8oq2b6XAyPyxf?usp=drive_link">Images</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1oOejpM-y6Jc8TPZi6OMiwowJmirbkcLy/view?usp=drive_link">README</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/drive/folders/1BmCMRViJygf38l8dJdhWVV5ZUxKri-Vc?usp=drive_link">Models</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>PSFs</td>
+        <td>Empirical PSFs for all filters</td>       
+        <td>
+            <a href="https://drive.google.com/file/d/1XwpEWg9yzn1M9J4yk_0LMxmwyf9q_0d6/view?usp=drive_link">FITS files</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Kernels</td>  
+        <td>Convolution kernels for PSF matching all filters to F444W</td>
+        <td>
+            <a href="https://drive.google.com/file/d/1ANpMcb6LJj1K_X9b-ty-EO2roLsLrHux/view?usp=drive_link">FITS files</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>Filter translation</td>
+        <td>EAZY zphot filter translation</td>
+        <td>
+            <a href="https://drive.google.com/file/d/1pdd_ry5lP_qEJ8ky8Vln60JCb9YqWN2K/view?usp=drive_link">zphot.translate</a>
+        </td>
+    </tr>
+</table>
 
 
 <hr>

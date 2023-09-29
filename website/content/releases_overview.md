@@ -27,16 +27,16 @@ DR2
 <!-- Photometry catalog release -->
 <h4 class="minor bigger">
     <a href="DR2.html#PhotometricCatalogs">Updated photometric catalogs release</a>
-    <div class="smaller">(Coming soon!)</div>
-    <!-- <div class="smaller">(<a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230102671W/abstract">Weaver et al. 2023</a>, September XX, 2023)</div> -->
+    <div class="smaller">(<a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230102671W/abstract">Weaver et al. 2023</a>, September 29, 2023)</div>
 </h4>
 
 
 <!-- SPS catalog release -->
 <h4 class="minor bigger">
     <a href="DR2.html#SPSCatalogs">Stellar population catalogs release</a>
+    <!-- <div class="smaller">(<a href="#">Wang et al. 2023</a>, September XX, 2023)</div> -->
     <div class="smaller">(Coming soon!)</div>
-    <!-- <div class="smaller">(<a href="">Wang et al. 2023</a>, September XX, 2023)</div> -->
+
 </h4>
 
 
