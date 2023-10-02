@@ -483,8 +483,12 @@ table th {
 }
 
 
-table tbody tr:nth-child(2n + 1) {
+/* table tbody tr:nth-child(2n + 1) {
     background-color: inherit; 
+} */
+
+table tr.double-row-border {
+    border-bottom: double var(--table-border); 
 }
 
 

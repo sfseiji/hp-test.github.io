@@ -493,13 +493,123 @@ These mosaics include data from the following programs:
 
 
 <hr>
-<!-- Initial photometric catalogs release -->
+<!-- Stellar populations catalogs release -->
 <h3 class="minor" id="SPSCatalogs">Stellar population catalogs release</h3>
-<!-- <h4 class="minor date">September XX, 2023</h4> -->
+<h4 class="minor date">October 2, 2023</h4>
 
-<p style="margin-bottom: 2rem">
-    Coming soon!
+<p style="margin-bottom: 1rem">
+    The UNCOVER DR2 stellar population sythesis (SPS) catalog is 
+    based on the "SUPER" DR2 photometric catalog, with optimally determined 
+    aperture sizes per object. 
+    The SPS modeling is performed with the Prospector inference framework 
+    (<a href="https://ui.adsabs.harvard.edu/abs/2021ApJS..254...22J/abstract">Johnson et al. 2021</a>). 
+    The modeling assumes a non-parametric, logarithmically-spaced SFH, 
+    as well as a mass function prior, a Gaussian mass-metallicity prior, 
+    and a dynamic SFH(M, z) prior from Prospector-beta to optimize 
+    the photometric inference over the wide parameter space covered by deep 
+    JWST surveys (<a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...944L..58W/abstract">Wang et al. 2023a</a>).
+    A second catalog with fixed redshifts to literature spec-zs 
+    (not including any UNCOVER MSA spec-zs) is also available. 
 </p>
+<p style="margin-bottom: 1rem">
+    For full details, please see the 
+    <a href="https://drive.google.com/file/d/1UCmc3u0RgWxvyMmLABHCPUA9Up84ptbR/view?usp=drive_link">README</a> 
+    and the <a href="">catalog paper</a>.
+</p>
+<p style="margin-bottom: 1.5rem">
+    Please cite <a href="">Wang et al. 2023b</a>
+    when using any of the following data products.
+</p>
+<!-- <table> -->
+<table style="margin-bottom:0; ">
+    <tr>
+        <th style="width:22%">Product</th>
+        <th style="width:50%">Description</th>
+        <th style="width:20%">Files</th>        
+    </tr>
+    <tr class="double-row-border">
+        <td>SPS catalog</td>
+        <td>Stellar population catalog based on the DR2 SUPER photometric catalog 
+            with optimally determined aperture sizes per object, 
+            with the redshift inferred <u>simultaneously</u> from the photometric fit</td>
+        <td>         
+            <a href="https://drive.google.com/file/d/1ngaJAEg-mV79qLVf276zv4rhfZoDgE8S/view?usp=drive_link">FITS</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1UCmc3u0RgWxvyMmLABHCPUA9Up84ptbR/view?usp=drive_link">README</a>
+        </td>
+    </tr> 
+    <tr>
+        <td>Quicklook notebook</td>
+        <td>Jupyter notebook for plotting the maximum-likelihood SEDs, SFH percentiles, and posteriors</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1vB3Rc8pOmP9ZioV3MERP-I-7xw03xe45/view?usp=drive_link">Notebook</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>Chains</td>
+        <td>Full posteriors for the default SPS catalog</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1hT_O42a6bfAfKW6HildDCpOuwYLoObw3/view?usp=drive_link">npz</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1UCmc3u0RgWxvyMmLABHCPUA9Up84ptbR/view?usp=drive_link">README</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>SEDs</td>
+        <td>Best-fit models for the default SPS catalog, for visualization purposes</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/18tkwWuhJ-jC5gcsdJafN8l-gyjyZh5DG/view?usp=drive_link">npz</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1UCmc3u0RgWxvyMmLABHCPUA9Up84ptbR/view?usp=drive_link">README</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>SFHs</td>
+        <td>SFH percentiles for the default SPS catalog (in lookback time, Gyr)</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1nYhkRiuNsCDcfakVOrMJt8KgsRKSZP-c/view?usp=drive_link">npz</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1UCmc3u0RgWxvyMmLABHCPUA9Up84ptbR/view?usp=drive_link">README</a> 
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <th style="width:22%">Product</th>
+        <th style="width:50%">Description</th>
+        <th style="width:20%">Files</th>          
+    </tr>
+    <tr class="double-row-border">
+        <td>SPS catalog, zspec</td>
+        <td>SPS modeling using DR2 SUPER photometry, fixing 
+            the redshift to spec-zs from the literature (not including any UNCOVER MSA spec-zs)</td>
+        <td>         
+            <a href="https://drive.google.com/file/d/1TALp-8C8AL8EF32Yzb0BSARSxPljteGX/view?usp=drive_link">FITS</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1UCmc3u0RgWxvyMmLABHCPUA9Up84ptbR/view?usp=drive_link">README</a>
+        </td>
+    </tr>
+    <tr>
+        <td>Chains, zspec</td>
+        <td>Full posteriors for the SPS catalog with fixed zspec</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1ipomIXshvXvfM8r7E02AvjD1tAY52ut2/view?usp=drive_link">npz</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1UCmc3u0RgWxvyMmLABHCPUA9Up84ptbR/view?usp=drive_link">README</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>SEDs, zspec</td>
+        <td>Best-fit models for the SPS catalog with fixed zspec, for visualization purposes</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1AMjRr79ZInKB8Ptp-otzs0VbM2iizriv/view?usp=drive_link">npz</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1UCmc3u0RgWxvyMmLABHCPUA9Up84ptbR/view?usp=drive_link">README</a> 
+        </td>
+    </tr>
+    <tr>
+        <td>SFHs, zspec</td>
+        <td>SFH percentiles for the SPS catalog with fixed zspec (in lookback time, Gyr)</td>
+        <td>        
+            <a href="https://drive.google.com/file/d/1iCn5C9q03i22B1xNxqJ_hx1iz-_57awS/view?usp=drive_link">npz</a> &nbsp; &nbsp; 
+            <a href="https://drive.google.com/file/d/1UCmc3u0RgWxvyMmLABHCPUA9Up84ptbR/view?usp=drive_link">README</a> 
+        </td>
+    </tr>
+</table>
+
 
 
 
