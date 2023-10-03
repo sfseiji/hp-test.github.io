@@ -34,7 +34,7 @@ DR2
 <!-- SPS catalog release -->
 <h4 class="minor bigger">
     <a href="DR2.html#SPSCatalogs">Stellar population catalogs release</a>
-    <div class="smaller">(<a href="#">Wang et al. 2023</a>, October 2, 2023)</div>
+    <div class="smaller">(<a href="https://arxiv.org/abs/2310.01276">Wang et al. 2023</a>, October 2, 2023)</div>
 
 </h4>
 

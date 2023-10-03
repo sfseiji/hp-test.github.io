@@ -70,3 +70,8 @@ headless = true
 1. [DUALZ -- Deep UNCOVER-ALMA Legacy High-*Z* Survey](https://ui.adsabs.harvard.edu/abs/2023arXiv230907834F/abstract)
     -  Fujimoto, S., Bezanson, R., Labbe, I., et al., 
         2023, arXiv:2309.07834
+
+  
+1. [The UNCOVER Survey: A First-Look HST+JWST Catalog of Galaxy Redshifts and Stellar Populations Properties Spanning 0.2≲z≲15](https://arxiv.org/abs/2310.01276)
+    -  Wang, B., Leja, J., Labbe, I., et al., 
+        2023,  	arXiv:2310.01276
