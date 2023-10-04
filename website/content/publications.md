@@ -72,6 +72,6 @@ headless = true
         2023, arXiv:2309.07834
 
   
-1. [The UNCOVER Survey: A First-Look HST+JWST Catalog of Galaxy Redshifts and Stellar Populations Properties Spanning 0.2≲z≲15](https://arxiv.org/abs/2310.01276)
+1. [The UNCOVER Survey: A First-Look HST+JWST Catalog of Galaxy Redshifts and Stellar Populations Properties Spanning 0.2≲z≲15](https://ui.adsabs.harvard.edu/abs/2023arXiv231001276W/abstract)
     -  Wang, B., Leja, J., Labbe, I., et al., 
         2023,  	arXiv:2310.01276
