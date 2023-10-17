@@ -74,4 +74,14 @@ headless = true
   
 1. [The UNCOVER Survey: A First-Look HST+JWST Catalog of Galaxy Redshifts and Stellar Populations Properties Spanning 0.2≲z≲15](https://ui.adsabs.harvard.edu/abs/2023arXiv231001276W/abstract)
     -  Wang, B., Leja, J., Labbe, I., et al., 
-        2023,  	arXiv:2310.01276
+        2023, arXiv:2310.01276
+
+1. [UNCOVER: The rest ultraviolet to near infrared multiwavelength structures and dust distributions of sub-millimeter-detected galaxies in Abell 2744](https://ui.adsabs.harvard.edu/abs/2023arXiv231002500P/abstract)
+    -  Price, S. H., Suess, K. A., Williams, C. C., et al., 
+        2023, arXiv:2310.02500
+
+
+1. [Quantifying the Effects of Known Unknowns on Inferred High-redshift Galaxy Properties: Burstiness, the IMF, and Nebular Physics](https://ui.adsabs.harvard.edu/abs/2023arXiv231006781W/abstract)
+    -  Wang, B., Leja, J., Atek, H., et al., 
+        2023, arXiv:2310.06781
+
