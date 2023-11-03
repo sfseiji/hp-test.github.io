@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
+    {{- partial "head_megascience.html" . -}}
 
       <body class="is-preload">
 
         <!-- Wrapper -->
         <div id="wrapper">
-                
-            {{ with .Site.GetPage "header" }}{{ .Content }}{{ end }}
-                
+
+            <!-- Header -->
+            {{ with .Site.GetPage "megascience/header" }}{{ .Content }}{{ end }}
 
 
 
             <!-- Main content -->
             <div id="main">
-                
                 <!-- {{- block "main" . }}{{- end }} -->
                 <!-- {{ .Content }} -->
 
                 <!-- Intro -->
                 <article id="overview">
                     <h2 class="major">Survey Overview</h2>
-                    <span class="image main"><img src="images/field_layout.png" alt="" /></span>
                     
-                    {{ with .Site.GetPage "overview" }}{{ .Content }}{{ end }}
+                    {{ with .Site.GetPage "megascience/overview" }}{{ .Content }}{{ end }}
                 </article>
 
 
@@ -31,7 +29,7 @@
                 <article id="science">
 
                     <h2 class="major">Science</h2>
-                    <span class="image main"><img src="images/UNCOVER_logo_jwst_background.jpg" alt="" /></span>
+                    <!-- <span class="image main"><img src="../images/UNCOVER_logo_jwst_background.jpg" alt="" /></span> -->
 
                     {{ with .Site.GetPage "/science" }}{{ .Content }}{{ end }}
                 </article>
@@ -43,12 +41,12 @@
 
                         <h3 class="minor">Acknowledgement</h3>
                         <!-- <p style="margin-bottom: 3rem"> -->
-                        <p>Please cite the survey paper (<a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204026B/abstract">Bezanson et al. 2022</a>) 
+                        <!-- <p>Please cite the survey paper (<a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204026B/abstract">Bezanson et al. 2022</a>) 
                             for any publications using UNCOVER data products, 
                             as well the other publications noted for specific releases.
-                        </p>
+                        </p> -->
 
-                        {{ with .Site.GetPage "/releases_overview" }}{{ .Content }}{{ end }}
+                        {{ with .Site.GetPage "megascience/releases_overview" }}{{ .Content }}{{ end }}
                     </article>
 
 
@@ -60,7 +58,7 @@
                             <!-- {{ with .Site.GetPage "/publications" }}{{ .Content }}{{ end }} -->
                         <!-- </ol> -->
 
-                        {{ with .Site.GetPage "/publications" }}{{ .Content }}{{ end }}
+                        {{ with .Site.GetPage "megascience/publications" }}{{ .Content }}{{ end }}
 
                     </article>
 
@@ -71,10 +69,10 @@
                             <h2 class="major">Team</h2>
                             <h4><a href="https://sites.google.com/view/jwst-uncover/home">Internal website</a></h4>
                         </div>
-                        <span class="image main"><img src="images/UNCOVER_map.png" alt="" /></span>
+                        <span class="image main"><img src="../images/UNCOVER_map.png" alt="" /></span>
                         <!-- <ul> -->
                             
-                        {{ with .Site.GetPage "/team" }}{{ .Content }}{{ end }}
+                        {{ with .Site.GetPage "megascience/team" }}{{ .Content }}{{ end }}
                         <!-- </ul> -->
 
                         <i>(Survey builders are denoted in <b>bold</b>.)</i>
@@ -86,7 +84,7 @@
 
                 <!-- Contact -->
                     <article id="contact">
-                        <span class="image main"><img src="images/UNCOVER_logo_white.png" alt="" /></span>
+                        <span class="image main"><img src="../images/UNCOVER_logo_white.png" alt="" /></span>
                         <h2 class="major">Contact</h2>
                             <p>Send us an email at jwstuncover - at - gmail.com !</p>
                     </article>
