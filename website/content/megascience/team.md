@@ -1,0 +1,66 @@
++++
+title = "Team"
+draft = false
+headless = true
++++
+
+- 
+- **PI [Wren Suess](https://wrensuess.github.io)** (Stanford)
+- Hakim Atek (IAP)
+- [Rachel Bezanson](https://rachelbezanson.github.io) (Pitt)
+- Gabe Brammer (DAWN)
+- Iryna Chemerynska (IAP)
+- [Sam Cutler](https://samecutler.github.io) (UMass-Amherst)
+- Pratika Dayal (Kapteyn/Groningen)
+- Pieter van Dokkum (Yale)
+- Yoshi Fudamoto (Waseda)
+- [Seiji Fujimoto](https://sf-seiji.com/) (UTAustin)
+- Lukas Furtak (Ben Gurion)
+- Justus Gibson (CU-Boulder)
+- Clara Giménez Arteaga (DAWN)
+- [Andy Goulding](https://www.astro.princeton.edu/~goulding/) (Princeton)
+- Anna de Graaff (Leiden)
+- Jenny Greene (Princeton)
+- Abigail Hartley (CU-Boulder)
+- [Susan Kassin](https://www.susankassin.com) (STScI)
+- [Gourav Khullar](https://www.gouravkhullar.com) (Pitt)
+- Mariska Kriek (Leiden)
+- Ivo Labbe (Swinburne)
+- [Joel Leja](https://www.personal.psu.edu/jql6565/) (Penn State)
+- [Danilo Marchesini](http://cosmos.phy.tufts.edu/~danilo/) (Tufts)
+- Michael Maseda (Wisconsin)
+- Jorryt Matthee (ISTA)
+- Lamiya Mowla (Toronto)
+- [Adam Muzzin](https://www.yorku.ca/professor/muzzin/) (York)
+- Rohan Naidu (MIT)
+- Themiya Nanayakkara (Swinburne)
+- Erica Nelson (CU-Boulder)
+- Pascal Oesch (Geneva)
+- Richard Pan (Tufts)
+- [Sedona Price](https://sedonaprice.github.io) (Pitt)
+- [David Setton](https://davidjsetton.github.io) (Pitt)
+- Renske Smit (Liverpool John Moores)
+- Mauro Stefanon (Leiden)
+- [Bingjie Wang](https://wangbingjie.github.io) (Penn State)
+- [John Weaver](https://astroweaver.github.io) (UMass-Amherst)
+- [Kate Whitaker](https://www.astrowhit.com) (UMass-Amherst)
+- [Christina Williams](https://mips.as.arizona.edu/~cwilliams) (NOIRLab)
+- [Adi Zitrin](https://sites.physics.bgu.ac.il/zitrin/) (Ben Gurion)
+
+
+
+<!-- - Dan Coe (STScI)
+- James Esdaile (Swinburne)
+- [Robert Feldmann](https://www.ics.uzh.ch/~feldmann) (Zurich)
+- Natascha Förster Schreiber (MPE)
+- Karl Glazebrook (Swinburne)
+- Stephanie Juneau (NOIRLab)
+- Camilla Pacifici (STScI)
+- Casey Papovich (TAMU)
+- Alice Shapley (UCLA)
+- Mimi Song (UMass-Amherst)
+- Ned Taylor (Swinburne)
+- Andrea Weibel (Geneva)
+- Marijn Franx (Leiden)
+
+- Marla Geha (Yale) -->

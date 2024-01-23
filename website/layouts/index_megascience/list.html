@@ -11,7 +11,6 @@
             {{ with .Site.GetPage "megascience/header" }}{{ .Content }}{{ end }}
 
 
-
             <!-- Main content -->
             <div id="main">
                 <!-- {{- block "main" . }}{{- end }} -->
@@ -20,26 +19,19 @@
                 <!-- Intro -->
                 <article id="overview">
                     <h2 class="major">Survey Overview</h2>
+                    <span class="image main"><img src="../images/megascience_bands.png" alt="" /></span>
                     
                     {{ with .Site.GetPage "megascience/overview" }}{{ .Content }}{{ end }}
                 </article>
 
 
-                <!-- Work -->
-                <article id="science">
-
-                    <h2 class="major">Science</h2>
-                    <!-- <span class="image main"><img src="../images/UNCOVER_logo_jwst_background.jpg" alt="" /></span> -->
-
-                    {{ with .Site.GetPage "/science" }}{{ .Content }}{{ end }}
-                </article>
 
                 <!-- Data releases -->
                     <article id="releases">
 
                         <h2 class="major">Data releases</h2>
 
-                        <h3 class="minor">Acknowledgement</h3>
+                        <!-- <h3 class="minor">Acknowledgement</h3> -->
                         <!-- <p style="margin-bottom: 3rem"> -->
                         <!-- <p>Please cite the survey paper (<a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204026B/abstract">Bezanson et al. 2022</a>) 
                             for any publications using UNCOVER data products, 
@@ -54,10 +46,6 @@
                     <article id="publications" class="publications">
                         <h2 class="major">Publications</h2>
 
-                        <!-- <ol class="publications"> -->
-                            <!-- {{ with .Site.GetPage "/publications" }}{{ .Content }}{{ end }} -->
-                        <!-- </ol> -->
-
                         {{ with .Site.GetPage "megascience/publications" }}{{ .Content }}{{ end }}
 
                     </article>
@@ -67,28 +55,20 @@
                         <!-- <div id="team-include"></div> -->
                         <div class="flex-horizontal">
                             <h2 class="major">Team</h2>
-                            <h4><a href="https://sites.google.com/view/jwst-uncover/home">Internal website</a></h4>
+                            <!-- <h4><a href="https://sites.google.com/view/jwst-uncover/home">Internal website</a></h4> -->
                         </div>
-                        <span class="image main"><img src="../images/UNCOVER_map.png" alt="" /></span>
+                        <!-- <span class="image main"><img src="../images/UNCOVER_map.png" alt="" /></span> -->
                         <!-- <ul> -->
-                            
+                        <p style="padding-top: 0rem;"></p>
                         {{ with .Site.GetPage "megascience/team" }}{{ .Content }}{{ end }}
                         <!-- </ul> -->
 
-                        <i>(Survey builders are denoted in <b>bold</b>.)</i>
+                        <!-- <i>(Survey builders are denoted in <b>bold</b>.)</i> -->
                     </article>
 
 
 
-                    
-
-                <!-- Contact -->
-                    <article id="contact">
-                        <span class="image main"><img src="../images/UNCOVER_logo_white.png" alt="" /></span>
-                        <h2 class="major">Contact</h2>
-                            <p>Send us an email at jwstuncover - at - gmail.com !</p>
-                    </article>
-
+            
                     
             </div>
 

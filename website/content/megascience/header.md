@@ -15,7 +15,9 @@ headless = true
     <div class="inner">
         <h1>JWST Mega Science Survey</h1>
         <h3>PI Wren Suess</h3>
-        <p>UltraDeep NIRCam Medium Band Imaging in Abell 2744</p>
+        <p>UltraDeep NIRCam 
+        <!-- Medium Band  -->
+        Imaging of All Medium Bands in Abell 2744</p>
         <p class="othersurvey">Cycle 1: <a href="/"><img src="../images/UNCOVER_logo_white.png" alt="UNCOVER"/> Survey</a></p>
     </div>
 </div>
@@ -24,10 +26,11 @@ headless = true
         <li><a href="#overview">Overview</a></li>
         <!-- <li><a href="#science">Science</a></li> -->
         <!-- <li><a style="padding-left: 0.85rem; padding-right: 0.75rem;" href="#releases">Data Releases</a></li> -->
+        <li><a href="#releases">Data Releases</a></li>
         <!-- <li><a href="#publications">Publications</a></li> -->
-        <!-- <li><a href="#team">Team</a></li> -->
+        <li><a href="#team">Team</a></li>
         <!-- <li><a href="#contact">Contact</a></li> -->
-        <li class="highlight"><a href="/news.html">News</a></li>
+        <!-- <li class="highlight"><a href="/news.html">News</a></li> -->
     </ul>
 </nav>
 </header>
