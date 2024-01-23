@@ -5,7 +5,6 @@ relativeURLS = true
 publishdir = "./public/"
 
 
-uglyurls = true
 disableKinds = ["sitemap", "taxonomy", "taxonomyTerm", "category", "RSS"]
 
 

@@ -1,8 +1,12 @@
 
 :root {
     --fontweight-navbar-highlight: 600; 
-    --link-color: rgba(229, 160, 90, 1); 
-    --color-navbar-highlight: rgba(229, 160, 90, 1); 
+    /* --link-color: rgb(199, 149, 240);  */
+    /* --color-navbar-highlight: rgba(176, 109, 231, 1);  */
+    /* --link-color: rgb(187, 133, 232); 
+    --color-navbar-highlight: rgb(187, 133, 232);  */
+    --link-color: rgb(171, 113, 218); 
+    --color-navbar-highlight: rgb(171, 113, 218); 
     --color-link-credit: #acacac; 
   }
 
@@ -19,7 +23,7 @@ a {
 
 
 #bg:after {
-    /* background-image: url("../images/HFF_abell2744.png"); */
+    /* background-image: url("../../images/HFF_abell2744.png"); */
     background-image: url("../../images/UNCOVER_A2744_NWcore.png"); 
 }
 
@@ -34,22 +38,25 @@ a {
     }
 }
 
+
 #header .logo .image:before {
     background-image: none;
     opacity: 0;
 }
 
 /* SHP */
-#header .logo .image.main{
-    margin-top: 4.1rem;
-    margin-left: -11.6rem;
+#header .logo .image.main{    
+    /* margin-top: -1rem;
+    margin-left: -15.5rem; */
+    margin-top: 0rem;
+    margin-left: -15rem;
+    z-index: 100; 
 }
 
 /* SHP */
 #header .logo .image.main img{
-    max-height: 8rem;
+    max-height: 13rem; 
     width: auto;
-    height:auto;
 }
 
 
@@ -475,7 +482,6 @@ input[type="button"], button, .button {
     vertical-align: middle; 
     border-bottom-width: 0; 
 }
-
 
 
 .plain-links ul a{
