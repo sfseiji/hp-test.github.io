@@ -28,6 +28,7 @@ headless = true
 - Stephanie Juneau (NOIRLab)
 - [Susan Kassin](https://www.susankassin.com) (STScI)
 - [Gourav Khullar](https://www.gouravkhullar.com) (Pitt)
+- Vasily Kokorev (Kapteyn/Groningen)
 - Mariska Kriek (Leiden)
 - **[Joel Leja](https://www.personal.psu.edu/jql6565/)** (Penn State)
 - [Danilo Marchesini](http://cosmos.phy.tufts.edu/~danilo/) (Tufts)
