@@ -16,9 +16,9 @@ headless = true
     - Furtak, L. J., Zitrin, A., Plat A., et al., 
         2022, ApJ 952 142
 
-1. [The UNCOVER Survey: A first-look HST+JWST catalog of 50,000 galaxies near Abell 2744 and beyond](https://ui.adsabs.harvard.edu/abs/2023arXiv230102671W/abstract)
+1. [The UNCOVER Survey: A First-look HST + JWST Catalog of 60,000 Galaxies near A2744 and beyond](https://ui.adsabs.harvard.edu/abs/2024ApJS..270....7W/abstract)
     - Weaver, J. R., Cutler, S. E., Pan, R., et al.,
-        2023, arXiv:2301.02671
+        2024, ApJS 270 7
 
 1. [JWST UNCOVER: Discovery of z > 9 Galaxy Candidates Behind the Lensing Cluster Abell 2744](https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.5486A/abstract)
     - Atek, H., Chemerynska, I., Wang, B., et al.,
@@ -28,13 +28,13 @@ headless = true
     - Labbe, I., Greene, J. E., Bezanson, R., et al., 
         2023, arXiv:2306.07320
 
-1. [UNCOVER: The growth of the first massive black holes from JWST/NIRSpec -- spectroscopic confirmation of an X-ray luminous AGN at z=10.1](https://ui.adsabs.harvard.edu/abs/2023arXiv230802750G/abstract)
+1. [UNCOVER: The growth of the first massive black holes from JWST/NIRSpec -- spectroscopic confirmation of an X-ray luminous AGN at z=10.1](https://ui.adsabs.harvard.edu/abs/2023ApJ...955L..24G/abstract)
     -  Goulding, A. D., Greene, J. E., Setton, D. J., et al., 
-        2023, arXiv:2308.02750
+        2023, ApJL 955 L24
 
-1. [UNCOVER: Illuminating the Early Universe -- JWST/NIRSpec Confirmation of z>12 Galaxies](https://ui.adsabs.harvard.edu/abs/2023arXiv230803745W/abstract)
+1. [UNCOVER: Illuminating the Early Universe -- JWST/NIRSpec Confirmation of z>12 Galaxies](https://ui.adsabs.harvard.edu/abs/2023ApJ...957L..34W/abstract)
     -  Wang, B., Fujimoto, S. , Labbe, I., et al., 
-        2023, arXiv:2308.03745
+        2023, ApJL 957 L34
 
 
 1. [A supermassive black hole in the early universe growing in the shadows](https://ui.adsabs.harvard.edu/abs/2023arXiv230805735F/abstract)
@@ -52,9 +52,9 @@ headless = true
         2023, arXiv:2308.11609
 
 
-1. [UNCOVER: A NIRSpec Identification of a Broad Line AGN at z = 8.50](https://ui.adsabs.harvard.edu/abs/2023arXiv230811610K/abstract)
+1. [UNCOVER: A NIRSpec Identification of a Broad Line AGN at z = 8.50](https://ui.adsabs.harvard.edu/abs/2023ApJ...957L...7K/abstract)
     -  Kokorev, V., Fujimoto, S., Labbe, I., et al., 
-        2023, arXiv:2308.11610
+        2023, ApJL 957 L7
 
 
 1. [UNCOVER: JWST Spectroscopy of Three Cold Brown Dwarfs at Kiloparsec-scale Distances](https://ui.adsabs.harvard.edu/abs/2023arXiv230812107B/abstract)
@@ -72,9 +72,10 @@ headless = true
         2023, arXiv:2309.07834
 
   
-1. [The UNCOVER Survey: A First-Look HST+JWST Catalog of Galaxy Redshifts and Stellar Populations Properties Spanning 0.2≲z≲15](https://ui.adsabs.harvard.edu/abs/2023arXiv231001276W/abstract)
+1. [The UNCOVER Survey: A First-Look HST+JWST Catalog of Galaxy Redshifts and Stellar Populations Properties Spanning 0.2≲z≲15](https://ui.adsabs.harvard.edu/abs/2024ApJS..270...12W/abstract)
     -  Wang, B., Leja, J., Labbe, I., et al., 
-        2023, arXiv:2310.01276
+        2024, ApJS 270 12
+
 
 1. [UNCOVER: The rest ultraviolet to near infrared multiwavelength structures and dust distributions of sub-millimeter-detected galaxies in Abell 2744](https://ui.adsabs.harvard.edu/abs/2023arXiv231002500P/abstract)
     -  Price, S. H., Suess, K. A., Williams, C. C., et al., 
@@ -85,3 +86,12 @@ headless = true
     -  Wang, B., Leja, J., Atek, H., et al., 
         2023, arXiv:2310.06781
 
+
+1. [JWST UNCOVER: The Overabundance of Ultraviolet-luminous Galaxies at z>9](https://ui.adsabs.harvard.edu/abs/2023arXiv231205030C/abstract)
+    - Chemerynska, I., Atek, H., Furtak, L. J., et al., 
+        2023, arXiv:2312.05030
+
+1. [UNCOVER NIRSpec/PRISM Spectroscopy Unveils Evidence of Early Core Formation in a Massive, Centrally Dusty Quiescent Galaxy at z<sub>spec</sub>=3.97](https://ui.adsabs.harvard.edu/abs/2024arXiv240205664S/abstract)
+    - Setton, D. J., Khullar, G., Miller, T. B., et al., 
+        2024, arXiv:2402.05664
+    
