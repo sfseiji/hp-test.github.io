@@ -27,19 +27,18 @@ DR2
 <!-- Photometry catalog release -->
 <h4 class="minor bigger">
     <a href="DR2.html#PhotometricCatalogs">Updated photometric catalogs release</a>
-    <div class="smaller">(<a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230102671W/abstract">Weaver et al. 2023</a>, September 29, 2023)</div>
+    <div class="smaller">(<a href="https://ui.adsabs.harvard.edu/abs/2024ApJS..270....7W/abstract">Weaver et al. 2024</a>, September 29, 2023)</div>
 </h4>
 
 
 <!-- SPS catalog release -->
 <h4 class="minor bigger">
     <a href="DR2.html#SPSCatalogs">Stellar population catalogs release</a>
-    <div class="smaller">(<a href="https://ui.adsabs.harvard.edu/abs/2023arXiv231001276W/abstract">Wang et al. 2023</a>, October 2, 2023; <i>DR2.1:</i> December 8, 2023)</div>
+    <div class="smaller">(<a href="https://ui.adsabs.harvard.edu/abs/2024ApJS..270...12W/abstract">Wang et al. 2024</a>, October 2, 2023; <i>DR2.1:</i> December 8, 2023)</div>
 
 </h4>
 
 
-<!-- SPS catalog release -->
 <h4 class="minor bigger">
     <a href="DR2.html#DUALZ">DUALZ Survey: ALMA Catalogs and Maps in Abell 2744</a>
     <div class="smaller">(<a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230907834F/abstract">Fujimoto et al. 2023</a>, v1.0, September 14, 2023)</div>
@@ -69,5 +68,5 @@ DR1
 <!-- Initial photometry catalog release -->
 <h4 class="minor bigger">
     <a href="DR1.html#PhotometricCatalogs">Initial photometric catalogs release</a>
-    <div class="smaller">(<a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230102671W/abstract">Weaver et al. 2023</a>, January 9, 2023)</div>
+    <div class="smaller">(<a href="https://ui.adsabs.harvard.edu/abs/2024ApJS..270....7W/abstract">Weaver et al. 2024</a>, January 9, 2023)</div>
 </h4>
