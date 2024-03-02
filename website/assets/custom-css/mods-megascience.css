@@ -24,7 +24,9 @@ a {
 
 #bg:after {
     /* background-image: url("../../images/HFF_abell2744.png"); */
-    background-image: url("../../images/UNCOVER_A2744_NWcore.png"); 
+    /* background-image: url("../../images/UNCOVER_A2744_NWcore.png");  */
+    background-image: url("../../images/MegaScience_A2744_crop.png"); 
+    
 }
 
 /* SHP */
