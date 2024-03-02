@@ -29,7 +29,7 @@ headless = true
         <li><a href="#publications">Publications</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li class="highlight"><a href="/news.html">News</a></li>
+        <li class="highlight"><a href="/news">News</a></li>
     </ul>
 </nav>
 </header>
