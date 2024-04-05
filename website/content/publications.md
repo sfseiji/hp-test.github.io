@@ -36,15 +36,14 @@ headless = true
     -  Wang, B., Fujimoto, S. , Labbe, I., et al., 
         2023, ApJL 957 L34
 
-
 1. [A supermassive black hole in the early universe growing in the shadows](https://ui.adsabs.harvard.edu/abs/2023arXiv230805735F/abstract)
     -  Furtak, L. J., Labbe, I., Zitrin, A., et al., 
-        2023, arXiv:2308.05735
+        2024, Nature 628 57
 
 
-1. [First spectroscopic observations of the galaxies that reionized the Universe](https://ui.adsabs.harvard.edu/abs/2023arXiv230808540A/abstract)
+1. [Most of the photons that reionized the Universe came from dwarf galaxies ](https://ui.adsabs.harvard.edu/abs/2024Natur.626..975A/abstract)
     -  Atek, H., Labbe, I., Furtak, L. J., et al., 
-        2023, arXiv:2308.08540
+        2024 Nature 626 975
 
 
 1. [UNCOVER: A NIRSpec Census of Lensed Galaxies at z=8.50-13.08 Probing a High AGN Fraction and Ionized Bubbles in the Shadow](https://ui.adsabs.harvard.edu/abs/2023arXiv230811609F/abstract)
@@ -57,14 +56,15 @@ headless = true
         2023, ApJL 957 L7
 
 
-1. [UNCOVER: JWST Spectroscopy of Three Cold Brown Dwarfs at Kiloparsec-scale Distances](https://ui.adsabs.harvard.edu/abs/2023arXiv230812107B/abstract)
-    -  Burgasser, A. J., Gerasimov, R., Bezanson, R., et al., 
-        2023, arXiv:2308.12107
+1. [UNCOVER: JWST Spectroscopy of Three Cold Brown Dwarfs at Kiloparsec-scale Distances](https://ui.adsabs.harvard.edu/abs/2024ApJ...962..177B/abstract)
+    -  Burgasser, A. J., Bezanson, R., Labbe, I., et al., 
+        2024, ApJ 962 177
 
 
-1. [UNCOVER spectroscopy confirms a surprising ubiquity of AGN in red galaxies at z>5](https://ui.adsabs.harvard.edu/abs/2023arXiv230905714G/abstract)
+
+1. [UNCOVER Spectroscopy Confirms the Surprising Ubiquity of Active Galactic Nuclei in Red Sources at z > 5](https://ui.adsabs.harvard.edu/abs/2024ApJ...964...39G/abstract)
     -  Greene, J. E., Labbe, I., Goulding, A. D., et al., 
-        2023, arXiv:2309.05714
+        2024, ApJ 964 39
 
         
 1. [DUALZ -- Deep UNCOVER-ALMA Legacy High-*Z* Survey](https://ui.adsabs.harvard.edu/abs/2023arXiv230907834F/abstract)
@@ -82,9 +82,9 @@ headless = true
         2023, arXiv:2310.02500
 
 
-1. [Quantifying the Effects of Known Unknowns on Inferred High-redshift Galaxy Properties: Burstiness, the IMF, and Nebular Physics](https://ui.adsabs.harvard.edu/abs/2023arXiv231006781W/abstract)
+1. [Quantifying the Effects of Known Unknowns on Inferred High-redshift Galaxy Properties: Burstiness, IMF, and Nebular Physics ](https://ui.adsabs.harvard.edu/abs/2024ApJ...963...74W/abstract)
     -  Wang, B., Leja, J., Atek, H., et al., 
-        2023, arXiv:2310.06781
+        2024, ApJ 963 74
 
 
 1. [JWST UNCOVER: The Overabundance of Ultraviolet-luminous Galaxies at z>9](https://ui.adsabs.harvard.edu/abs/2023arXiv231205030C/abstract)
