@@ -22,7 +22,7 @@ done
 
 # NIRISS-SW
 ends=("-clear_drc_sci.fits.gz" "-clear_drc_wht.fits.gz" "-clear_wcs.csv")
-filter=("f090wn" "f115wn" "f150wn" "f158mn" "f200wn")
+filter=("f090wn" "f115wn" "f140mn" "f150wn" "f158mn" "f200wn")
 
 for filt in ${filter[@]}; do
     for e in ${ends[@]}; do 
