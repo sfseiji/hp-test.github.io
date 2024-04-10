@@ -31,12 +31,20 @@
 
                         <h2 class="major">Data releases</h2>
 
-                        <!-- <h3 class="minor">Acknowledgement</h3> -->
+                        <h3 class="minor">Acknowledgement</h3>
                         <!-- <p style="margin-bottom: 3rem"> -->
-                        <!-- <p>Please cite the survey paper (<a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204026B/abstract">Bezanson et al. 2022</a>) 
-                            for any publications using UNCOVER data products, 
+                        <p>Please cite the survey paper (<a href="">Suess et al. 2024</a>) 
+                            for any publications using MegaScience data products, 
                             as well the other publications noted for specific releases.
-                        </p> -->
+                        </p>
+                         
+                        <p>As the MegaScience catalogs also include broad-band 
+                            photometry from the <a href="..">UNCOVER survey</a> 
+                            (GO-2561; PIs: Bezanson & Labbe), 
+                            please also cite the UNCOVER survey paper 
+                            (<a href="https://ui.adsabs.harvard.edu/abs/2022arXiv221204026B/abstract">Bezanson et al. 2022</a>)
+                            in any publication using the UNCOVER+MegaScience data products. 
+                        </p>
 
                         {{ with .Site.GetPage "megascience/releases_overview" }}{{ .Content }}{{ end }}
                     </article>

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-basepath="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v5/uncover/full/abell2744clu-grizli-v5.4-"
+basepath="https://s3.amazonaws.com/grizli-v2/JwstMosaics/v7/abell2744clu-grizli-v7.1-"
 
 # HST/ACS
 ends=("_drc_sci.fits.gz" "_drc_wht.fits.gz" "_wcs.csv")

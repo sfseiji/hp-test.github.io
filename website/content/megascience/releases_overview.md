@@ -4,5 +4,36 @@ draft = false
 headless = true
 +++
 
+<!-- 
+DR3
+-->
 
-_Coming soon!_
+<h3 id="DR3" class="minor margtop"><a href="../DR3.html">Data Release 3</a>
+</h3>
+
+<!-- Mosaic + photometry release -->
+
+<!-- Mosaic release -->
+<h4 class="minor bigger">
+    <a href="../DR3.html#PhotometricCatalogs">MegaScience medium band+UNCOVER photometric catalog release</a>; <a href="../DR3.html#Mosaics">MegaScience medium band mosaic release</a>
+    <div class="smaller">(<a href="">Suess et al. 2024</a>, April XX, 2024)</div>
+</h4>
+
+
+
+<h3 class="minor bigger" style="margin-top: 3rem;">
+    <a href="/#releases"><i>Past UNCOVER releases</i></a>
+</h3>
+<!-- <h4 class="minor bigger">
+    <a href="DR2.html">Data Release 2</a>
+</h4>
+<h4 class="minor bigger">
+    <a href="DR1.html">Data Release 1</a>
+</h4> -->
+
+
+<!-- style="margin-top: 3rem" -->
+<p><i>Note:
+The MegaScience release numbers are incorporated into the 
+release order scheme of the UNCOVER survey.</i> 
+<p>

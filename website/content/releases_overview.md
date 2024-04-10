@@ -6,6 +6,23 @@ headless = true
 
 
 <!-- 
+DR3
+-->
+
+<h3 id="DR3" class="minor margtop"><a href="DR3.html">Data Release 3</a>
+</h3>
+
+<!-- Mosaic + photometry release -->
+
+<!-- Mosaic release -->
+<h4 class="minor bigger">
+    <a href="DR3.html#PhotometricCatalogs">MegaScience medium band+UNCOVER photometric catalog release</a>; <a href="DR3.html#Mosaics">MegaScience medium band mosaic release</a>
+    <div class="smaller">(<a href="">Suess et al. 2024</a>, April XX, 2024)</div>
+</h4>
+
+
+
+<!-- 
 DR2
 -->
 
