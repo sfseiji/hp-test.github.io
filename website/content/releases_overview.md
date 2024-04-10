@@ -16,7 +16,7 @@ DR3
 
 <!-- Mosaic release -->
 <h4 class="minor bigger">
-    <a href="DR3.html#PhotometricCatalogs">MegaScience medium band+UNCOVER photometric catalog release</a>; <a href="DR3.html#Mosaics">MegaScience medium band mosaic release</a>
+    <a href="DR3.html#PhotometricCatalogs">MegaScience medium band+UNCOVER photometric catalog release</a>; <a href="DR3.html#Mosaics">MegaScience+UNCOVER mosaic release</a>
     <div class="smaller">(<a href="">Suess et al. 2024</a>, April XX, 2024)</div>
 </h4>
 
