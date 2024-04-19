@@ -2,7 +2,7 @@
 title = "First MegaScience data release (DR3)"
 draft = false
 type = "news_megascience"
-date = "2024-04-30"
+date = "2024-04-22"
 imagecredit = "<a href=''>Suess et al. 2024</a>"
 +++
 

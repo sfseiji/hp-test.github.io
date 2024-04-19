@@ -2,7 +2,7 @@
 title = "DR3: MegaScience photometric catalog & mosaic release"
 draft = false
 type = "news"
-date = "2024-04-30"
+date = "2024-04-22"
 imagecredit = "<a href=''>Suess et al. 2024</a>"
 +++
 
