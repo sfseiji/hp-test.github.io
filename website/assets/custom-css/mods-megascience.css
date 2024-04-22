@@ -485,6 +485,16 @@ input[type="button"], button, .button {
     border-bottom-width: 0; 
 }
 
+h1.othersurvey img {
+    /* height: 4rem;  */
+    width: 14rem; 
+    vertical-align: middle; 
+    border-bottom-width: 0; 
+}
+
+
+
+
 
 .plain-links ul a{
     color: rgba(255, 255, 255, 1)!important; 
@@ -511,6 +521,11 @@ input[type="button"], button, .button {
 
 table th {
     background-color: rgba(145, 145, 145, 0.2); 
+}
+
+
+table tr.mainhead th{
+    background-color: rgba(191, 100, 224, 0.2); 
 }
 
 

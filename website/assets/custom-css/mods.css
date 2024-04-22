@@ -476,6 +476,14 @@ input[type="button"], button, .button {
     border-bottom-width: 0; 
 }
 
+h1.othersurvey img {
+    /* height: 4rem;  */
+    width: 14rem; 
+    vertical-align: middle; 
+    border-bottom-width: 0; 
+}
+
+
 
 
 .plain-links ul a{

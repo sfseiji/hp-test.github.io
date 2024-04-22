@@ -3,7 +3,7 @@ title = "UNCOVER co-PI Rachel Bezanson Named as Fred Kavli Plenary Lecturer"
 draft = false
 type = "news"
 date = "2024-03-29"
-imagecredit = "AAS Website; Image: R. Bezanson"
+imagecredit = "<a href='https://aas.org/grants-and-prizes/fred-kavli-plenary-lecture'>AAS Website</a>; Image: R. Bezanson"
 +++
 
 UNCOVER co-PI Rachel Bezanson has been named as the AAS' Fred Kavli Plenary Lecturer for the 244th AAS Meeting! Rachel and the entire UNCOVER team were selected for this honor "[f]or the remarkable diversity of ground-breaking science that has resulted from their deep imaging and spectroscopic survey of Pandora's Cluster with JWST."

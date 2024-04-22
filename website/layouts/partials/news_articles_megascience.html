@@ -1,0 +1,55 @@
+{{ range (where .Site.RegularPages "Section" "megascience") }}
+
+<!-- News -->
+{{ $anchorized := anchorize .Page.Title }}
+<article id="{{ $anchorized }}" class="news">
+
+    <h1>{{ .Title }}</h1>
+    <h3>{{ dateFormat "Jan. 2, 2006" .Page.Date }}</h3>
+
+    <div class="image-side">
+
+        {{ if (eq .Params.category "interview") }}
+
+            {{ $img_found := false }}
+            {{ with .Resources.ByType "image" }}
+                {{ range . }}
+                <img src="{{ .RelPermalink }}"  width="{{ .Width }}"  height="{{ .Height }}" class="image-interview"  alt="">
+                {{ $img_found = true }}
+                {{ end }}
+            {{ end }}
+
+            {{ if (eq $img_found false) }}
+                {{ if isset .Params "imageurl" }}
+                <img src="{{ .Params.imageurl }}" class="image-interview"  alt="">
+                {{ end }}
+            {{ end }}
+
+        {{ else }}
+            {{ $img_found := false }}
+            {{ with .Resources.ByType "image" }}
+                {{ range . }}
+                <img src="{{ .RelPermalink }}"  width="{{ .Width }}"  height="{{ .Height }}" class="image-news"  alt="">
+                {{ $img_found = true }}
+                {{ end }}
+            {{ end }}
+
+            {{ if (eq $img_found false) }}
+                {{ if isset .Params "imageurl" }}
+                <img src="{{ .Params.imageurl }}" class="image-news"  alt="">
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        <!-- Add image credit: -->
+        {{ if isset .Params "imagecredit" }}
+            <p>
+            Credit: 
+            {{ with .Params.imagecredit }}{{ . | markdownify }}{{ end }}
+            </p>
+        {{ end }}
+    </div>
+    <!-- <div class="news-text"> -->
+        {{ .Content }}
+    <!-- </div> -->
+</article>
+{{ end }}

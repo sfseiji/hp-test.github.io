@@ -553,7 +553,7 @@
 
     Slick.prototype.buildRows = function() {
 
-        var _ = this, a, b, c, newSlides, numOfSlides, originalSlides,slidesPerSection;
+        var _ = this, a, b, c, newSlides, numOfSlides, originalSlides,slidesPerSection, widthVar;
 
         newSlides = document.createDocumentFragment();
         originalSlides = _.$slider.children();
@@ -564,6 +564,15 @@
             numOfSlides = Math.ceil(
                 originalSlides.length / slidesPerSection
             );
+
+            // widthVar = 100 / _.options.slidesPerRow
+
+
+            if(_.options.slidesPerRow>originalSlides.length) {
+                widthVar = 100 / originalSlides.length
+            } else {
+                widthVar = 100 / _.options.slidesPerRow
+            }
 
             //////////////////////////////////////////////////////
             for(a = 0; a < numOfSlides; a++){
@@ -585,7 +594,7 @@
             _.$slider.empty().append(newSlides);
             _.$slider.children().children().children()
                 .css({
-                    'width':(100 / _.options.slidesPerRow) + '%',
+                    'width':widthVar + '%',
                     'display': 'inline-block', 
                 });
 
