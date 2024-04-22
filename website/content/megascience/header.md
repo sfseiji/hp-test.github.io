@@ -27,7 +27,7 @@ headless = true
         <!-- <li><a href="#science">Science</a></li> -->
         <!-- <li><a style="padding-left: 0.85rem; padding-right: 0.75rem;" href="#releases">Data Releases</a></li> -->
         <li><a href="#releases">Data Releases</a></li>
-        <!-- <li><a href="#publications">Publications</a></li> -->
+        <li><a href="#publications">Publications</a></li>
         <li><a href="#team">Team</a></li>
         <!-- <li><a href="#contact">Contact</a></li> -->
         <li class="highlight"><a href="/megascience/news">News</a></li>
